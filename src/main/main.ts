@@ -15,6 +15,7 @@ import log from 'electron-log';
 import MenuBuilder from './menu';
 import { resolveHtmlPath } from './util';
 const { spawn } = require('child_process');
+import fs from 'fs';
 
 class AppUpdater {
   constructor() {
@@ -26,23 +27,48 @@ class AppUpdater {
 
 let mainWindow: BrowserWindow | null = null;
 
-ipcMain.on('start-game', async (event, arg) => {
-  const exePath = path.join(__dirname, arg);
-  console.log(exePath);
-  var fun = function () {
-    const child = spawn(exePath, [
-      /* arguments */
-    ]);
-    console.log('fun() start');
-    child.on('error', (err: any) => {
-      console.error('Failed to start child process.', err);
-    });
+ipcMain.on('Screen-data', async (event, arg) => {
+  // for loading games
+  if (arg.event == 'GamesOpen') {
+    const exePath = path.join(__dirname, '../', arg.link);
+    var fun = function () {
+      const child = spawn(exePath, [
+        /* arguments */
+      ]);
 
-    child.on('close', (code: any) => {
-      console.log(`Child process exited with code ${code}`);
-    });
-  };
-  fun();
+      child.on('error', (err: any) => {
+        console.error('Failed to start child process.', err);
+      });
+
+      child.on('close', (code: any) => {
+        console.log(`Child process exited with code ${code}`);
+      });
+    };
+    fun();
+  }
+
+  //for loading screendata like games, interactive content, etc.
+
+  if (arg.event == 'ReadJson') {
+    const dataFilePath = path.join(__dirname, '../data/', arg.link + '.json');
+    let data = [];
+    try {
+      const dataFile = fs.readFileSync(dataFilePath, 'utf8');
+      data = JSON.parse(dataFile);
+    } catch (error) {
+      console.error(error);
+      return data;
+    }
+
+    event.reply('Screen-data', data);
+  }
+
+  //to open interactive content
+  if (arg.event == 'H5pOpen') {
+    const exePath = path.join(__dirname, '../', arg.link);
+
+    shell.openExternal(`file://${exePath}`);
+  }
 });
 
 if (process.env.NODE_ENV === 'production') {

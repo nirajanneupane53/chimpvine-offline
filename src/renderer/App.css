@@ -12,6 +12,11 @@ body {
 
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "cocoonCustomPrimary",sans-serif;
+
+}
+
 button {
   background-color: white;
   padding: 10px 20px;
@@ -41,11 +46,29 @@ a {
   height: fit-content;
   width: fit-content;
   margin: 10px;
+  transition: all ease-in 0.15s;  
 }
 
 a:hover {
   color:white;
   opacity: 1;
   text-decoration: none;
+  transform: scale(1.05);
 }
 
+a, a:active, a:focus, a:visited{
+  outline: none; 
+}
+
+
+.ic-list, .ic-list a{
+  color: black;
+  transition: all ease-in 0.15s;
+  font-weight: bold;
+}
+
+.ic-list:hover{
+  color: white!important;
+  transform: scale(1.05);
+
+}

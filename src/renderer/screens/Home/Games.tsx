@@ -11,6 +11,11 @@ interface Games {
   link: string;
 }
 
+// interface Gamedata{
+//   name: string;
+//   link:string;
+// }
+
 const Games = () => {
   const [cardModule, setCardModule] = useState<any>(null);
 
@@ -45,8 +50,13 @@ const Games = () => {
   ];
 
   const handleCardClick = (link: any) => {
-    console.log(link);
-    window.electron.ipcRenderer.sendMessage('start-game', link);
+    // console.log(link);
+    // window.electron.ipcRenderer.sendMessage('start-game', link);
+    const sentData = {
+      event: 'GamesOpen',
+      link: link,
+    };
+    window.electron.ipcRenderer.sendMessage('Screen-data', sentData);
   };
 
   return (

@@ -1,15 +1,17 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import Heading from 'renderer/components/Heading';
+
 import { Card } from 'react-bootstrap';
 import gamesimg from '../../../../assets/images/Games.png';
 import icimg from '../../../../assets/images/InteractiveContents.png';
-import quizimg from '../../../../assets/images/Quizzes.png';
+// import quizimg from '../../../../assets/images/Quizzes.png';
 import Footer from 'renderer/components/Footer';
 
 interface Items {
   name: string;
   image: string;
+  id: string;
   link: string;
 }
 
@@ -23,24 +25,33 @@ const Subject = () => {
 
   const handleCardClick = (link: any) => {
     console.log(link);
+    console.log(subID);
   };
 
   const subitems: Items[] = [
     {
       name: 'Games',
+      id: 'Games',
       image: gamesimg,
       link: '..\\games\\Arthematica\\arithmetica.exe',
     },
+    // {
+    //   name: 'Interactive Content',
+    //   id: 'IC',
+    //   image: icimg,
+    //   link: '..\\games\\DragandDrop\\Drag-and-Drop.exe',
+    // },
     {
       name: 'Interactive Content',
+      id: 'InteractiveContent',
       image: icimg,
       link: '..\\games\\DragandDrop\\Drag-and-Drop.exe',
     },
-    {
-      name: 'Quizzes',
-      image: quizimg,
-      link: '..\\games\\Combine the shape\\Combine The Shapes.exe',
-    },
+    // {
+    //   name: 'Quizzes',
+    //   image: quizimg,
+    //   link: '..\\games\\Combine the shape\\Combine The Shapes.exe',
+    // },
   ];
 
   return (
@@ -61,19 +72,26 @@ const Subject = () => {
       </div>
       <div className="mt-5 d-flex gap-5">
         {subitems.map((item, index) => (
-          <div
-            style={{ cursor: 'Pointer' }}
-            onClick={() => handleCardClick(item.link)}
-            key={index}
-          >
-            <Card>
-              <Card.Img variant="top" src={item.image} />
-              <Card.Body>
-                <Card.Title className="text-black-50 text-center fw-bold">
-                  <h4 className="fw-bold">{item.name}</h4>
-                </Card.Title>
-              </Card.Body>
-            </Card>
+          // <Link  to={`/subject/${subject.link}?grade=${grade.grade}&subject=${subject.name}`}>
+          <div key={index}>
+            <Link
+              to={`/subject/${subID}/${item.name}?id=${item.id}&grade=${grade}&subject=${subject}`}
+            >
+              <div
+                style={{ cursor: 'Pointer' }}
+                onClick={() => handleCardClick(item.link)}
+                key={index}
+              >
+                <Card>
+                  <Card.Img variant="top" src={item.image} />
+                  <Card.Body>
+                    <Card.Title className="text-black-50 text-center fw-bold">
+                      <h4 className="fw-bold">{item.name}</h4>
+                    </Card.Title>
+                  </Card.Body>
+                </Card>
+              </div>
+            </Link>
           </div>
         ))}
       </div>

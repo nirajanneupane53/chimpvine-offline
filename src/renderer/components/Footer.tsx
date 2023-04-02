@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import { FiMapPin, FiGlobe, FiPhone } from 'react-icons/fi';
-import AdditionInteractiveBook from 'h5p/addition-interactive-book/addition-interactive-book';
+// import AdditionInteractiveBook from 'h5p/addition-interactive-book/addition-interactive-book';
+// import AdditionInteractiveBook from '../../h5p/addition-interactive-book';
 
 const Footer = () => {
   return (
@@ -66,7 +67,7 @@ const Footer = () => {
       </footer>
       {/* <!-- Footer --> */}
 
-      <AdditionInteractiveBook />
+      {/* <AdditionInteractiveBook /> */}
     </div>
   );
 };

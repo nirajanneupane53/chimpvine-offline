@@ -13,8 +13,8 @@ const Heading = () => {
           </button>
         </div>
         <div className="col text-end">
-          <Link to="./">
-            <button onClick={() => navigate(-1)}>
+          <Link to="/">
+            <button>
               <FiHome />
             </button>
           </Link>
