@@ -1,20 +1,24 @@
-import React from 'react';
-
-// import image from "../../../../assets/images/"
 interface ImageProps {
   [key: string]: string;
 }
 
-const importImages = () => {
+const importImages = async () => {
   const images: ImageProps = {};
   const imageContext = require.context(
     '../../../../assets/images/games/',
     false,
     /\.(png|jpe?g|svg)$/
   );
-  imageContext.keys().forEach((imageName: any) => {
-    images[imageName] = imageContext(imageName).default;
-  });
+  const imagePaths = imageContext.keys();
+  await Promise.all(
+    imagePaths.map(async (imagePath: any) => {
+      const imageName = imagePath.replace('./', '');
+      const imageUrl = await import(
+        `../../../../assets/images/games/${imageName}`
+      );
+      images[imageName] = imageUrl.default;
+    })
+  );
   return images;
 };
 

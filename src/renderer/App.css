@@ -70,5 +70,12 @@ a, a:active, a:focus, a:visited{
 .ic-list:hover{
   color: white!important;
   transform: scale(1.05);
-
 }
+
+  .game-card{
+    transition: all ease-in 0.15s;
+  }
+  .game-card:hover{
+    transform: scale(1.05);
+    /* color:red!important */
+  }

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Card } from 'react-bootstrap';
 import game1 from '../../../../assets/images/games/arithmetica.png';
 import game2 from '../../../../assets/images/games/drag.png';
-import game3 from '../../../../assets/images/games/combine-shape.png';
+import game3 from '../../../../assets/images/games/combining-shape.png';
 import game4 from '../../../../assets/images/games/bubble.png';
 
 interface Games {
@@ -30,22 +30,23 @@ const Games = () => {
     {
       name: 'Arithmetica',
       image: game1,
-      link: '..\\games\\Arthematica\\arithmetica.exe',
+      // link: '..\\games\\Arthematica\\arithmetica.exe',
+      link: '..\\games\\Grade2\\Maths\\Arthematica\\arithmetica.exe',
     },
     {
       name: 'Drag & Drop',
       image: game2,
-      link: '..\\games\\DragandDrop\\Drag-and-Drop.exe',
+      link: '..\\games\\Grade1\\English\\DragandDrop\\Drag-and-Drop.exe',
     },
     {
       name: 'Combining Shape',
       image: game3,
-      link: '..\\games\\Combine the shape\\Combine The Shapes.exe',
+      link: '..\\games\\Grade1\\Maths\\Combine the shape\\Combine The Shapes.exe',
     },
     {
       name: 'Bubble Multiple',
       image: game4,
-      link: '..\\games\\Bubble-Multiple\\Bubblemultiples.exe',
+      link: '..\\games\\Grade3\\Maths\\Bubble-Multiple\\Bubblemultiples.exe',
     },
   ];
 
@@ -70,7 +71,7 @@ const Games = () => {
             key={index}
           >
             {cardModule && (
-              <Card>
+              <Card className="game-card">
                 {/* <Card.Img variant="top" src={game.image} /> */}
                 <Card.Img variant="top" src={game.image} />
                 <Card.Body>

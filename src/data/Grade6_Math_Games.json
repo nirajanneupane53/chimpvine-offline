@@ -1,0 +1,24 @@
+[
+    {
+      "grade": 1,
+      "subject": "Math",
+      "type":"Games",
+      "Games":[
+
+        {
+            "name": "Arch Boy Grade-6-Maths",
+            "image": "..../../../assets/images/games/arithmetica.png",
+            "alt":"image1",
+            "link": "..\\games\\Grade6\\Maths\\Arch Boy Grade-6-Maths\\Arch-Boy-Grade-6-Maths.exe"
+          },
+          {
+            "name": "Mono Jump Grade-6 Maths",
+            "image": "..../../../assets/images/games/arithmetica.png",
+            "alt":"image1",
+            "link": "..\\games\\Grade6\\Maths\\Mono Jump Grade-6 Maths\\Mono Jump Grade-6 Maths.exe"
+          }
+      ]
+}
+]
+          
+  

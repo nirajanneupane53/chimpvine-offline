@@ -21,6 +21,14 @@ declare global {
     subject: string;
     Interactive: InteractiveHeading[];
   }
+
+  interface NodeRequire {
+    context: (
+      directory: string,
+      useSubdirectories?: boolean,
+      regExp?: RegExp
+    ) => any;
+  }
 }
 
 export {};

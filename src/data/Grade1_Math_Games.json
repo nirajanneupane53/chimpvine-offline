@@ -6,28 +6,40 @@
       "Games":[
 
         {
-            "name": "Arithmetica",
-            "image": "..../../../assets/images/games/arithmetica.png",
-            "alt":"image1",
-            "link": "..\\games\\Arthematica\\arithmetica.exe"
+          "name": "Whack-A-Mole",
+          "image": "wack-a-mole.png",
+          "alt":"image3",
+          "link": "..\\games\\Grade1\\Maths\\MoleGame\\MoleGame.exe"
           },
           {
-            "name": "Drag & Drop",
-            "image": ".../../../assets/images/games/drag.png",
-            "alt":"drag",
-            "link": "..\\games\\DragandDrop\\Drag-and-Drop.exe"
+            "name": "Ball Search",
+            "image": "ball-search.png",
+            "alt":"image3",
+            "link": "..\\games\\Grade1\\Maths\\Ball Search\\Ballsearch.exe"
           },
           {
             "name": "Combining Shape",
-            "image": ".../../../assets/images/games/combine-shape.png",
+            "image": "combining-shape.png",
             "alt":"image3",
-            "link": "..\\games\\Combine the shape\\Combine The Shapes.exe"
+            "link": "..\\games\\Grade1\\Maths\\Combine the shape\\Combine The Shapes.exe"
           },
           {
-            "name": "Bubble Multiple",
-            "image": ".../../../assets/images/games/bubble.png",
-            "alt":"image4",
-            "link": "..\\games\\Bubble-Multiple\\Bubblemultiples.exe"
+            "name": "Missing Number",
+            "image": "missing-number.png",
+            "alt":"image3",
+            "link": "..\\games\\Grade1\\Maths\\Missing-Number\\Missing Number.exe"
+          },
+          {
+            "name": "Subtraction Equation",
+            "image": "subtraction-equation.png",
+            "alt":"image3",
+            "link": "..\\games\\Grade1\\Maths\\Subtraction Equation\\Subtraction Equation.exe"
+          },
+          {
+            "name": "Hungry Fish",
+            "image": "hungy-fish.png",
+            "alt":"image3",
+            "link": "..\\games\\Grade1\\Maths\\Hungry Fish\\Hungry Fish.exe"
           }
       ]
 }

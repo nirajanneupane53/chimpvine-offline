@@ -1,0 +1,30 @@
+[
+    {
+      "grade": 1,
+      "subject": "Math",
+      "type":"Games",
+      "Games":[
+
+        {
+            "name": "Arch Boy Grade-8 Maths",
+            "image": "..../../../assets/images/games/arithmetica.png",
+            "alt":"image1",
+            "link": "..\\games\\Grade8\\Maths\\Arch Boy Grade-8 Maths\\Arch-Boy-Grade-8-Maths.exe"
+          },
+          {
+            "name": "Arrow Master",
+            "image": "..../../../assets/images/games/arithmetica.png",
+            "alt":"image1",
+            "link": "..\\games\\Grade8\\Maths\\Arrow Master\\Arrow Master.exe"
+          },
+          {
+            "name": "Mono Jump Grade-8 Maths",
+            "image": "..../../../assets/images/games/arithmetica.png",
+            "alt":"image1",
+            "link": "..\\games\\Grade8\\Maths\\Mono Jump Grade-8 Maths\\Mono Jump Grade-8 Maths.exe"
+          }
+      ]
+}
+]
+          
+  

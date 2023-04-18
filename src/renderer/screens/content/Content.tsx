@@ -4,6 +4,8 @@ import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Footer from 'renderer/components/Footer';
 import { Card } from 'react-bootstrap';
+// import importImages from './Images';
+
 import importImages from './Images';
 // import image from '../../../../assets/images/games/drag.png';
 
@@ -12,7 +14,7 @@ import importImages from './Images';
 // import game3 from '../../../../assets/images/games/combine-shape.png';
 // import game4 from '../../../../assets/images/games/bubble.png';
 
-// const abc = require('.../../../assets/images/games/drag.png');
+// const abc = require('../../../../assets/images/games/drag.png');
 
 // sent data
 interface SentDataType {
@@ -37,7 +39,7 @@ interface ScreenData {
   }[];
   Games?: {
     name?: string;
-    image?: string;
+    image?: any;
     link?: string;
     alt?: string;
   }[];
@@ -51,15 +53,22 @@ const Content = () => {
   const subject = queryParams.get('subject');
   const { subID, contentID } = useParams();
 
-  const images = importImages();
-  console.log(images);
+  const imagesvariable = importImages();
+  console.log(imagesvariable);
 
   // console.log(contentID, ID);
   // //   const { contentID } = useParams();
 
   const [screenData, setScreenData] = useState<ScreenData[]>([]);
+  const [imagesfile, setImagesfile] = useState<ImageProps>({});
 
   useEffect(() => {
+    const loadImages = async () => {
+      const loadedImages = await importImages();
+      setImagesfile(loadedImages);
+    };
+    loadImages();
+
     const sentData = {
       event: 'ReadJson',
       link: `${subID}${ID}`,
@@ -132,31 +141,29 @@ const Content = () => {
 
     if (item.type == 'Games') {
       return (
-        <div key={`${item.grade}-${item.subject}`} className="d-flex gap-5">
+        <div
+          key={`${item.grade}-${item.subject}`}
+          className="d-flex flex-wrap gap-5"
+        >
           {item.Games.map((games: any) => (
             <div
-              style={{ cursor: 'Pointer' }}
+              style={{ cursor: 'Pointer', flexBasis: 'calc(25% - 40px)' }}
               onClick={() => handleGameClick(games.link)}
               key={games.link}
             >
               {games && (
-                <Card>
-                  {/* <Card.Img variant="top" src={games.image} /> */}
+                <Card className="game-card">
                   <Card.Img
+                    className="card-image"
                     variant="top"
-                    src={images['arithmetica.png']}
+                    src={imagesfile[`${games.image}`]}
                     alt={games.alt}
                   />
-
-                  {/* <Card.Img
-                    variant="top"
-                    src={require(`${games.image}`)}
-                    alt={games.alt}
-                  /> */}
 
                   <Card.Body>
                     <Card.Title className="text-black-50 text-center fw-bold">
                       <h4 className="fw-bold">{games.name}</h4>
+                      {/* <h4 className="fw-bold">{games.image}</h4> */}
                     </Card.Title>
                   </Card.Body>
                 </Card>

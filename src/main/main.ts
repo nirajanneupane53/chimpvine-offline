@@ -40,7 +40,8 @@ ipcMain.on('Screen-data', async (event, arg) => {
         console.error('Failed to start child process.', err);
       });
 
-      child.on('close', (code: any) => {
+      // Listen for the 'exit' event
+      child.on('exit', (code: any) => {
         console.log(`Child process exited with code ${code}`);
       });
     };
