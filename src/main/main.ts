@@ -16,6 +16,8 @@ import MenuBuilder from './menu';
 import { resolveHtmlPath } from './util';
 const { spawn } = require('child_process');
 import fs from 'fs';
+const Store = require('electron-store');
+const store = new Store();
 
 class AppUpdater {
   constructor() {
@@ -25,52 +27,8 @@ class AppUpdater {
   }
 }
 
-let mainWindow: BrowserWindow | null = null;
-
-ipcMain.on('Screen-data', async (event, arg) => {
-  // for loading games
-  if (arg.event == 'GamesOpen') {
-    const exePath = path.join(__dirname, '../', arg.link);
-    var fun = function () {
-      const child = spawn(exePath, [
-        /* arguments */
-      ]);
-
-      child.on('error', (err: any) => {
-        console.error('Failed to start child process.', err);
-      });
-
-      // Listen for the 'exit' event
-      child.on('exit', (code: any) => {
-        console.log(`Child process exited with code ${code}`);
-      });
-    };
-    fun();
-  }
-
-  //for loading screendata like games, interactive content, etc.
-
-  if (arg.event == 'ReadJson') {
-    const dataFilePath = path.join(__dirname, '../data/', arg.link + '.json');
-    let data = [];
-    try {
-      const dataFile = fs.readFileSync(dataFilePath, 'utf8');
-      data = JSON.parse(dataFile);
-    } catch (error) {
-      console.error(error);
-      return data;
-    }
-
-    event.reply('Screen-data', data);
-  }
-
-  //to open interactive content
-  if (arg.event == 'H5pOpen') {
-    const exePath = path.join(__dirname, '../', arg.link);
-
-    shell.openExternal(`file://${exePath}`);
-  }
-});
+// let mainWindow: BrowserWindow | null = null;
+let mainWindow: BrowserWindow;
 
 if (process.env.NODE_ENV === 'production') {
   const sourceMapSupport = require('source-map-support');
@@ -112,7 +70,7 @@ const createWindow = async () => {
 
   mainWindow = new BrowserWindow({
     fullscreen: true,
-
+    autoHideMenuBar: true,
     backgroundColor: '#ba73ff',
     icon: getAssetPath('icon.png'),
 
@@ -135,11 +93,26 @@ const createWindow = async () => {
     } else {
       mainWindow.show();
     }
+
+    //   if (!store.has('installationDate')) {
+    //     const installationDate = new Date().toISOString();
+    //     store.set('installationDate', installationDate);
+    //   }
+    // });
+
+    //date subscription
+    const subscriptionDate = new Date('2023-9-20').toISOString();
+    store.set('subscriptionDate', subscriptionDate);
+
+    // if (!store.has('subscriptionDate')) {
+    //   const subscriptionDate = new Date('2023-06-01').toISOString();
+    //   store.set('subscriptionDate', subscriptionDate);
+    // }
   });
 
-  mainWindow.on('closed', () => {
-    mainWindow = null;
-  });
+  // mainWindow.on('closed', () => {
+  //   mainWindow = null;
+  // });
 
   const menuBuilder = new MenuBuilder(mainWindow);
   menuBuilder.buildMenu();
@@ -153,6 +126,126 @@ const createWindow = async () => {
   // Remove this if your app does not use auto updates
   // eslint-disable-next-line
   new AppUpdater();
+
+  ipcMain.on('date-data', async (event, arg) => {
+    // console.log(store.get('installationDate'));
+    let data = store.get('subscriptionDate');
+    event.reply('date-data', data);
+  });
+
+  ipcMain.on('Screen-data', async (event, arg) => {
+    // for loading games
+    if (arg.event == 'GamesOpen') {
+      const exePath = app.isPackaged
+        ? path.join(__dirname, '../../../', arg.link)
+        : path.join(__dirname, '../../', arg.link);
+
+      console.log(exePath);
+      event.reply('Screen-data', exePath);
+
+      var fun = function () {
+        const child = spawn(exePath, [
+          /* arguments */
+        ]);
+
+        child.on('error', (err: any) => {
+          console.error('Failed to start child process.', err);
+        });
+
+        // Listen for the 'exit' event
+        child.on('exit', (code: any) => {
+          console.log(`Child process exited with code ${code}`);
+        });
+      };
+      fun();
+    }
+
+    //for loading screendata like games, interactive content, etc.
+
+    if (arg.event == 'ReadJson') {
+      const dataFilePath = app.isPackaged
+        ? path.join(__dirname, '../../../assets/data/', arg.link + '.json')
+        : path.join(__dirname, '../../assets/data/', arg.link + '.json');
+
+      // path.join(__dirname, '../data/', arg.link + '.json');
+      // const dataFilePath = path.join(__dirname);
+
+      console.log(dataFilePath);
+      // event.reply('Screen-data', dataFilePath);
+      let data = [];
+      try {
+        const dataFile = fs.readFileSync(dataFilePath, 'utf8');
+        data = JSON.parse(dataFile);
+      } catch (error) {
+        console.error(error);
+        return data;
+      }
+
+      event.reply('Screen-data', data);
+      // event.reply('Screen-data', dataFilePath);
+    }
+
+    //to open interactive content
+    if (arg.event == 'H5pOpen') {
+      // let child: BrowserWindow | null = null;
+
+      const exePath = app.isPackaged
+        ? path.join(__dirname, '../../../', arg.link)
+        : path.join(__dirname, '../../', arg.link);
+
+      console.log(exePath);
+
+      // shell.openExternal(`file://${exePath}`);
+      // let myWindow: BrowserWindow | null = null;
+      // if (child) {
+      //   // child.close();
+      // }
+
+      // child = new BrowserWindow({
+      //   // fullscreen: true,
+
+      //   webPreferences: {
+      //     // fullscreen: true,
+      //     nodeIntegration: true,
+      //     contextIsolation: false,
+      //     javascript: true,
+      //     webSecurity: false,
+      //     allowRunningInsecureContent: true,
+      //   },
+      // });
+      let child: BrowserWindow | null = null;
+      child = new BrowserWindow({
+        // fullscreen: true,
+        parent: mainWindow,
+        modal: true,
+        webPreferences: {
+          // fullscreen: true,
+          nodeIntegration: true,
+          contextIsolation: false,
+          javascript: true,
+          webSecurity: false,
+          allowRunningInsecureContent: true,
+        },
+      });
+      child.setMenuBarVisibility(false);
+      child.loadFile(exePath);
+
+      child.on('ready-to-show', () => {
+        if (!child) {
+          throw new Error('"mainWindow" is not defined');
+        }
+        if (process.env.START_MINIMIZED) {
+          child.maximize();
+        } else {
+          child.show();
+        }
+      });
+    }
+
+    if (arg.event == 'close') {
+      app.quit();
+    }
+  });
 };
 
 /**

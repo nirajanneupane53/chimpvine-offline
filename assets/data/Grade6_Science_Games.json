@@ -1,0 +1,23 @@
+[
+    {
+      "grade": 1,
+      "subject": "Science",
+      "type":"Games",
+      "Games":[
+
+        {
+            "name": "Experiment Me",
+            "image": "physic.png",
+            "alt":"image1",
+            "link": "assets\\games\\Grade6\\Science\\Experiment-Physics\\Science Experiment.exe"
+          },
+          {
+            "name": "Shoot The Price",
+            "image": "Shoot The Price.png",
+            "alt":"image1",
+            "link": "assets\\games\\Grade6\\Science\\Shoot The Price\\Shoot The Price.exe"
+          }
+      ]
+}
+]
+

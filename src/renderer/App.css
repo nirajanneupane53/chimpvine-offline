@@ -5,7 +5,7 @@
 body {
   position: relative;
   color: white!important;
-  
+
   background: #ba73ff!important;
   font-family: sans-serif;
   overflow-y: scroll;
@@ -46,7 +46,7 @@ a {
   height: fit-content;
   width: fit-content;
   margin: 10px;
-  transition: all ease-in 0.15s;  
+  transition: all ease-in 0.15s;
 }
 
 a:hover {
@@ -57,7 +57,7 @@ a:hover {
 }
 
 a, a:active, a:focus, a:visited{
-  outline: none; 
+  outline: none;
 }
 
 
@@ -74,8 +74,17 @@ a, a:active, a:focus, a:visited{
 
   .game-card{
     transition: all ease-in 0.15s;
+    background-color: transparent!important;
+    border: 0px!important;
   }
   .game-card:hover{
     transform: scale(1.05);
     /* color:red!important */
   }
+
+
+  a.carousel-control-prev, a.carousel-control-prev:hover, a.carousel-control-next, a.carousel-control-next:hover {
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}

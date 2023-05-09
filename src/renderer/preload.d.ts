@@ -1,3 +1,4 @@
+import { AnyPtrRecord } from 'dns';
 import { ElectronHandler } from 'main/preload';
 
 declare global {
@@ -23,12 +24,15 @@ declare global {
   }
 
   interface NodeRequire {
-    context: (
-      directory: string,
-      useSubdirectories?: boolean,
-      regExp?: RegExp
-    ) => any;
+    context: any;
   }
+  // interface NodeRequire {
+  //   context: (
+  //     directory: string,
+  //     useSubdirectories?: boolean,
+  //     regExp?: RegExp
+  //   ) => any;
+  // }
 }
 
 export {};

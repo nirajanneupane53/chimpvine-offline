@@ -1,0 +1,53 @@
+[
+    {
+      "grade": 1,
+      "subject": "Math",
+      "type":"Games",
+      "Games":[
+
+        {
+            "name": "Arithmetica",
+            "image": "Arth.png",
+            "alt":"image1",
+            "link": "assets\\games\\Grade2\\Maths\\Arthematica\\Arithmetica.exe"
+          },
+          {
+            "name": "Park Order",
+            "image": "park.png",
+            "alt":"drag",
+            "link": "assets\\games\\Grade2\\Maths\\Park Order\\Park-order-2019.exe"
+          },
+          {
+            "name": "Soonta Farm",
+            "image": "soonta.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade2\\Maths\\Soonta Farm\\Soontafarm.exe"
+          },
+          {
+            "name": "Forest Trail Run",
+            "image": "Forest Trail Run.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade2\\Maths\\Forest Trail Run\\Forest Trail Run.exe"
+          },
+          {
+            "name": "Happy Animals",
+            "image": "Happy Animals.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade2\\Maths\\Happy Animals\\Happy Animals.exe"
+          },
+          {
+            "name": "Water Trail Run",
+            "image": "Water Trail Run.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade2\\Maths\\Water Trail Run\\Water Trail Run.exe"
+          },
+          {
+            "name": "Addition Equation",
+            "image": "bubble.png",
+            "alt":"image4",
+            "link": "assets\\games\\Grade2\\Maths\\Addition Equation\\Addition Equation.exe"
+         }
+      ]
+}
+]
+

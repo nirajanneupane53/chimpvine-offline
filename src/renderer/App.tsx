@@ -1,5 +1,5 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Home from './screens/Home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,10 +7,34 @@ import './App.css';
 
 import Subject from './screens/subject/Subject';
 import Content from './screens/content/Content';
+import Close from './components/Close';
+import Subscription from './screens/content/Subscription';
 
 function Main() {
+  const [date, setDate] = useState<Date | null>(null);
+  const [showPageTwo, setShowPageTwo] = useState(false);
+
+  useEffect(() => {
+    window.electron.ipcRenderer.sendMessage('date-data');
+
+    window.electron.ipcRenderer.once('date-data', async (arg: any) => {
+      // eslint-disable-next-line no-console
+      const data = await arg;
+      const certainDateObj = new Date(data);
+      const currentDate = new Date();
+      if (currentDate > certainDateObj) {
+        setShowPageTwo(true);
+      }
+
+      // setDate(certainDateObj);
+    });
+  }, []);
+  console.log(showPageTwo);
   return (
     <div className="container">
+      <div style={{ position: 'absolute', right: '2%', top: '-2%' }}>
+        <Close />
+      </div>
       <div className="text-center my-5">
         <img
           src={require('../../assets/images/logo.png')}
@@ -19,7 +43,11 @@ function Main() {
         />
       </div>
 
-      <Home />
+      {/* <Home />
+
+      <Subscription /> */}
+
+      <div> {showPageTwo ? <Subscription /> : <Home />}</div>
     </div>
   );
 }

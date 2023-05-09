@@ -1,0 +1,23 @@
+[
+    {
+      "grade": 1,
+      "subject": "Science",
+      "type":"Games",
+      "Games":[
+
+        {
+            "name": "Experiment Me",
+            "image": "chemsitry.png",
+            "alt":"image1",
+            "link": "assets\\games\\Grade7\\Science\\Experiment-Chemistry\\Science Experiment.exe"
+          },
+          {
+            "name": "Arch Boy-Grade-7-Science",
+            "image": "Arch-Boy-Grade-7-Science.png",
+            "alt":"image1",
+            "link": "assets\\games\\Grade7\\Science\\Arch Boy Grade-7-Science\\Arch-Boy-Grade-7-Science.exe"
+          }
+      ]
+}
+]
+

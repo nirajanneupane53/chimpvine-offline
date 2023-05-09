@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card } from 'react-bootstrap';
-import game1 from '../../../../assets/images/games/arithmetica.png';
+import game1 from '../../../../assets/images/games/Arth.png';
 import game2 from '../../../../assets/images/games/drag.png';
-import game3 from '../../../../assets/images/games/combining-shape.png';
+import game3 from '../../../../assets/images/games/combine.png';
 import game4 from '../../../../assets/images/games/bubble.png';
 
 interface Games {
@@ -22,7 +22,6 @@ const Games = () => {
   useEffect(() => {
     import('react-bootstrap').then((module) => {
       setCardModule(module.Card);
-      // ipcRenderer.send('open-app');
     });
   }, []);
 
@@ -30,23 +29,22 @@ const Games = () => {
     {
       name: 'Arithmetica',
       image: game1,
-      // link: '..\\games\\Arthematica\\arithmetica.exe',
-      link: '..\\games\\Grade2\\Maths\\Arthematica\\arithmetica.exe',
+      link: 'assets/games/Grade2/Maths/Arthematica/arithmetica.exe',
     },
     {
       name: 'Drag & Drop',
       image: game2,
-      link: '..\\games\\Grade1\\English\\DragandDrop\\Drag-and-Drop.exe',
+      link: 'assets/games/Grade1/English/DragandDrop/Drag-and-Drop.exe',
     },
     {
       name: 'Combining Shape',
       image: game3,
-      link: '..\\games\\Grade1\\Maths\\Combine the shape\\Combine The Shapes.exe',
+      link: 'assets/games/Grade1/Maths/Combine the shape/Combine The Shapes.exe',
     },
     {
       name: 'Bubble Multiple',
       image: game4,
-      link: '..\\games\\Grade3\\Maths\\Bubble-Multiple\\Bubblemultiples.exe',
+      link: 'assets/games/Grade3/Maths/Bubble-Multiple/Bubblemultiples.exe',
     },
   ];
 
@@ -63,6 +61,7 @@ const Games = () => {
   return (
     <div className="my-5">
       <h2 className="fw-bold">Games</h2>
+
       <div className="mt-5 d-flex gap-5">
         {games.map((game, index) => (
           <div
@@ -74,11 +73,11 @@ const Games = () => {
               <Card className="game-card">
                 {/* <Card.Img variant="top" src={game.image} /> */}
                 <Card.Img variant="top" src={game.image} />
-                <Card.Body>
+                {/* <Card.Body>
                   <Card.Title className="text-black-50 text-center fw-bold">
                     <h4 className="fw-bold">{game.name}</h4>
                   </Card.Title>
-                </Card.Body>
+                </Card.Body> */}
               </Card>
             )}
           </div>

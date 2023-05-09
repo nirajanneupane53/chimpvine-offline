@@ -2,6 +2,7 @@ import {
   AiOutlineBook,
   AiOutlineCalculator,
   AiOutlineExperiment,
+  AiOutlineLaptop,
 } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
@@ -40,6 +41,11 @@ const grades: Grade[] = [
         icon: <AiOutlineExperiment />,
         link: 'Grade1_Science_',
       },
+      {
+        name: 'Computer',
+        icon: <AiOutlineLaptop />,
+        link: 'Grade1_Computer_',
+      },
     ],
   },
   {
@@ -59,6 +65,11 @@ const grades: Grade[] = [
         name: 'Science',
         icon: <AiOutlineExperiment />,
         link: 'Grade2_Science_',
+      },
+      {
+        name: 'Computer',
+        icon: <AiOutlineLaptop />,
+        link: 'Grade2_Computer_',
       },
     ],
   },
@@ -80,6 +91,11 @@ const grades: Grade[] = [
         icon: <AiOutlineExperiment />,
         link: 'Grade3_Science_',
       },
+      {
+        name: 'Computer',
+        icon: <AiOutlineLaptop />,
+        link: 'Grade3_Computer_',
+      },
     ],
   },
   {
@@ -99,6 +115,11 @@ const grades: Grade[] = [
         name: 'Science',
         icon: <AiOutlineExperiment />,
         link: 'Grade4_Science_',
+      },
+      {
+        name: 'Computer',
+        icon: <AiOutlineLaptop />,
+        link: 'Grade4_Computer_',
       },
     ],
   },
@@ -120,6 +141,11 @@ const grades: Grade[] = [
         icon: <AiOutlineExperiment />,
         link: 'Grade5_Science_',
       },
+      {
+        name: 'Computer',
+        icon: <AiOutlineLaptop />,
+        link: 'Grade5_Computer_',
+      },
     ],
   },
   {
@@ -139,6 +165,11 @@ const grades: Grade[] = [
         name: 'Science',
         icon: <AiOutlineExperiment />,
         link: 'Grade6_Science_',
+      },
+      {
+        name: 'Computer',
+        icon: <AiOutlineLaptop />,
+        link: 'Grade6_Computer_',
       },
     ],
   },
@@ -160,6 +191,11 @@ const grades: Grade[] = [
         icon: <AiOutlineExperiment />,
         link: 'Grade7_Science_',
       },
+      {
+        name: 'Computer',
+        icon: <AiOutlineLaptop />,
+        link: 'Grade7_Computer_',
+      },
     ],
   },
   {
@@ -179,6 +215,11 @@ const grades: Grade[] = [
         name: 'Science',
         icon: <AiOutlineExperiment />,
         link: 'Grade8_Science_',
+      },
+      {
+        name: 'Computer',
+        icon: <AiOutlineLaptop />,
+        link: 'Grade8_Computer_',
       },
     ],
   },

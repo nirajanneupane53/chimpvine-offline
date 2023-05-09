@@ -1,0 +1,23 @@
+[
+    {
+      "grade": 1,
+      "subject": "Math",
+      "type":"Games",
+      "Games":[
+
+        {
+            "name": "Arch Boy-Grade-7-Math",
+            "image": "Arch-Boy-Grade-7-Maths.png",
+            "alt":"image1",
+            "link": "assets\\games\\Grade7\\Maths\\Arch Boy Grade-7-Maths\\Arch-Boy-Grade-7-Math.exe"
+          },
+          {
+            "name": "Math Mahjong",
+            "image": "Math Archer.png",
+            "alt":"image1",
+            "link": "assets\\games\\Grade7\\Maths\\Math Mahjong\\Math Mahjong.exe"
+          }
+      ]
+}
+]
+

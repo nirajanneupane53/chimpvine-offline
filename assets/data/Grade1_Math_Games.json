@@ -1,0 +1,47 @@
+[
+    {
+      "grade": 1,
+      "subject": "Math",
+      "type":"Games",
+      "Games":[
+
+        {
+          "name": "Whack-A-Mole",
+          "image": "wak a mole.png",
+          "alt":"image3",
+          "link": "assets\\games\\Grade1\\Maths\\MoleGame\\MoleGame.exe"
+          },
+          {
+            "name": "Ball Search",
+            "image": "BallSearch.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade1\\Maths\\Ball Search\\Ballsearch.exe"
+          },
+          {
+            "name": "Combining Shape",
+            "image": "combine.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade1\\Maths\\Combine the shape\\Combine The Shapes.exe"
+          },
+          {
+            "name": "Missing Number",
+            "image": "missing number.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade1\\Maths\\Missing-Number\\Missing Number.exe"
+          },
+          {
+            "name": "Subtraction Equation",
+            "image": "subtraction.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade1\\Maths\\Subtraction Equation\\Subtraction Equation.exe"
+          },
+          {
+            "name": "Hungry Fish",
+            "image": "Hungry Fish.png",
+            "alt":"image3",
+            "link": "assets\\games\\Grade1\\Maths\\Hungry Fish\\Hungry Fish.exe"
+          }
+      ]
+}
+]
+

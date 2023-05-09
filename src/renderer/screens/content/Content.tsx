@@ -4,26 +4,22 @@ import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Footer from 'renderer/components/Footer';
 import { Card } from 'react-bootstrap';
-// import importImages from './Images';
-
 import importImages from './Images';
-// import image from '../../../../assets/images/games/drag.png';
-
-// import game1 from '../../../../assets/images/games/arithmetica.png';
-// import game2 from '../../../../assets/images/games/drag.png';
-// import game3 from '../../../../assets/images/games/combine-shape.png';
-// import game4 from '../../../../assets/images/games/bubble.png';
-
-// const abc = require('../../../../assets/images/games/drag.png');
 
 // sent data
-interface SentDataType {
+interface sentData {
   event: string;
   link: string;
 }
 
 interface ImageProps {
   [key: string]: string;
+}
+
+interface sentData {
+  grade: any;
+  subject: string;
+  Interactive: InteractiveHeading[];
 }
 
 interface ScreenData {
@@ -81,6 +77,7 @@ const Content = () => {
       // eslint-disable-next-line no-console
       const data = await arg;
       setScreenData(data);
+      // setTestlocation(data);
     });
   }, []);
 
@@ -160,12 +157,12 @@ const Content = () => {
                     alt={games.alt}
                   />
 
-                  <Card.Body>
+                  {/* <Card.Body>
                     <Card.Title className="text-black-50 text-center fw-bold">
                       <h4 className="fw-bold">{games.name}</h4>
-                      {/* <h4 className="fw-bold">{games.image}</h4> */}
+
                     </Card.Title>
-                  </Card.Body>
+                  </Card.Body> */}
                 </Card>
               )}
             </div>
