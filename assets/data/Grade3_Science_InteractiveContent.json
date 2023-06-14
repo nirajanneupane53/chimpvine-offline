@@ -18,25 +18,25 @@
         "interactive_items": [
           {
             "name": "A windy day",
-            "link": "assets\\H5P\\Grade 3\\Science\\A windy day\\be-safe-from-diseases\\be-safe-from-diseases.html"
+            "link": "assets\\H5P\\Grade 3\\Science\\A windy day\\windy-day\\windy-day.html"
           }
         ]
       },
       {
-        "Heading": "Advantages from plants and animals",
+        "Heading": "Importance of plants and animals",
         "interactive_items": [
           {
             "name": "Importance of plants and animals",
-            "link": "assets\\H5P\\Grade 3\\Science\\Advantages from plants and animals\\importance-of-plants-and-animals\\importance-of-plants-and-animals.html"
+            "link": "assets\\H5P\\Grade 3\\Science\\Importance of plants and animals\\importance-of-plants-and-animals\\importance-of-plants-and-animals.html"
           }
         ]
       },
       {
-        "Heading": "Animals habitats",
+        "Heading": "Animal habitats",
         "interactive_items": [
           {
             "name": "Shelter of animals",
-            "link": "assets\\H5P\\Grade 3\\Science\\Animals habitats\\shelter-of-animals\\shelter-of-animals.html"
+            "link": "assets\\H5P\\Grade 3\\Science\\Animal habitats\\shelter-of-animals\\shelter-of-animals.html"
           }
         ]
       },
@@ -44,8 +44,8 @@
         "Heading": "Animals seen in different times and seasons",
         "interactive_items": [
           {
-            "name": "Foods and feeding habits of animals",
-            "link": "assets\\H5P\\Grade 3\\Science\\Animals seen in different times and seasons\\foods-and-feeding-habits-of-animals\\foods-and-feeding-habits-of-animals.html"
+            "name": "Animals seen in different times and seasons",
+            "link": "assets\\H5P\\Grade 3\\Science\\Animals seen in different times and seasons\\animals-seen-in-different-times-and-seasons\\animals-seen-in-different-times-and-seasons.html"
           }
         ]
       },
@@ -63,7 +63,7 @@
         "interactive_items": [
           {
             "name": "Clean house",
-            "link": "assets\\H5P\\Grade 3\\Science\\Clean environment\\clean-house\\clean-house.html"
+            "link": "assets\\H5P\\Grade 3\\Science\\Clean house\\clean-house\\clean-house.html"
           }
         ]
       },
@@ -71,12 +71,12 @@
         "Heading": "Common characteristics of living things",
         "interactive_items": [
           {
-            "name": "Common features of living beings",
-            "link": "assets\\H5P\\Grade 3\\Science\\Common characteristics of living things\\common-features-of-living-beings\\common-features-of-living-beings.html"
-          },
-          {
             "name": "Life science - Interactive book",
             "link": "assets\\H5P\\Grade 3\\Science\\Common characteristics of living things\\life-science-interactive-book\\life-science-interactive-book.html"
+          },
+          {
+            "name": "Common features of living beings",
+            "link": "assets\\H5P\\Grade 3\\Science\\Common characteristics of living things\\common-features-of-living-beings\\common-features-of-living-beings.html"
           }
         ]
       },
@@ -120,7 +120,7 @@
         "Heading": "Force and motion",
         "interactive_items": [
           {
-            "name": "Force and motion",
+            "name": "Force and motion - Interactive book",
             "link": "assets\\H5P\\Grade 3\\Science\\Force and motion\\force-and-motion\\force-and-motion.html"
           }
         ]
@@ -144,11 +144,11 @@
         ]
       },
       {
-        "Heading": "Keeping food safe and type of diet",
+        "Heading": "Keeping food safe and types of diet",
         "interactive_items": [
           {
             "name": "Keeping food safe and types of diet",
-            "link": "assets\\H5P\\Grade 3\\Science\\Keeping food safe and type of diet\\keeping-food-safe-and-types-of-diet\\keeping-food-safe-and-types-of-diet.html"
+            "link": "assets\\H5P\\Grade 3\\Science\\Keeping food safe and types of diet\\keeping-food-safe-and-types-of-diet\\keeping-food-safe-and-types-of-diet.html"
           }
         ]
       },
@@ -228,11 +228,11 @@
         ]
       },
       {
-        "Heading": "The earth",
+        "Heading": "The Earth",
         "interactive_items": [
           {
-            "name": "The earth",
-            "link": "assets\\H5P\\Grade 3\\Science\\The earth\\the-earth\\the-earth.html"
+            "name": "The Earth",
+            "link": "assets\\H5P\\Grade 3\\Science\\The Earth\\the-earth\\the-earth.html"
           }
         ]
       },
@@ -240,8 +240,8 @@
         "Heading": "Types of matter",
         "interactive_items": [
           {
-            "name": "Matter",
-            "link": "assets\\H5P\\Grade 3\\Science\\Types of matter\\matter\\matter.html"
+            "name": "Types of matter",
+            "link": "assets\\H5P\\Grade 3\\Science\\Types of matter\\types-of-matter\\types-of-matter.html"
           }
         ]
       },
@@ -249,21 +249,21 @@
         "Heading": "Types of plants",
         "interactive_items": [
           {
-            "name": "Different types of plants",
-            "link": "assets\\H5P\\Grade 3\\Science\\Types of plants\\different-types-of-plants\\different-types-of-plants.html"
-          },
-          {
             "name": "Plants - Interactive book",
             "link": "assets\\H5P\\Grade 3\\Science\\Types of plants\\plants-interactive-book\\plants-interactive-book.html"
+          },
+          {
+            "name": "Different types of plants",
+            "link": "assets\\H5P\\Grade 3\\Science\\Types of plants\\different-types-of-plants\\different-types-of-plants.html"
           }
         ]
       },
       {
-        "Heading": "Uses of wind and water",
+        "Heading": "Water",
         "interactive_items": [
           {
             "name": "Water",
-            "link": "assets\\H5P\\Grade 3\\Science\\Uses of wind and water\\water\\water.html"
+            "link": "assets\\H5P\\Grade 3\\Science\\Water\\water\\water.html"
           }
         ]
       }

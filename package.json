@@ -1,5 +1,5 @@
 {
-  "description": "A foundation for scalable desktop apps",
+  "description": "An offline version for chimpvine",
   "keywords": [
     "electron",
     "boilerplate",
@@ -235,8 +235,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "Chimpvine Offline",
+      "repo": "chimpvine offline"
     }
   },
   "collective": {

@@ -6,17 +6,17 @@ const Sponsers = () => {
   const bannerData = [
     {
       image: Banner1,
-      date: '2023-04-05',
+      date: '2024-04-05',
       link: 'sfsf',
     },
     {
       image: Banner1,
-      date: '2023-05-10',
+      date: '2024-05-10',
       link: 'sfsf',
     },
     {
       image: Banner1,
-      date: '2023-05-15',
+      date: '2024-05-15',
       link: 'fsfs',
     },
   ];

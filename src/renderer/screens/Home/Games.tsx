@@ -62,7 +62,7 @@ const Games = () => {
     <div className="my-5">
       <h2 className="fw-bold">Games</h2>
 
-      <div className="mt-5 d-flex gap-5">
+      <div className="pt-3 d-flex gap-5">
         {games.map((game, index) => (
           <div
             style={{ cursor: 'Pointer' }}

@@ -15,6 +15,7 @@ import log from 'electron-log';
 import MenuBuilder from './menu';
 import { resolveHtmlPath } from './util';
 const { spawn } = require('child_process');
+
 import fs from 'fs';
 const Store = require('electron-store');
 const store = new Store();
@@ -101,8 +102,8 @@ const createWindow = async () => {
     // });
 
     //date subscription
-    const subscriptionDate = new Date('2023-9-20').toISOString();
-    store.set('subscriptionDate', subscriptionDate);
+    // const subscriptionDate = new Date('2023-9-20').toISOString();
+    // store.set('subscriptionDate', subscriptionDate);
 
     // if (!store.has('subscriptionDate')) {
     //   const subscriptionDate = new Date('2023-06-01').toISOString();
@@ -128,9 +129,20 @@ const createWindow = async () => {
   new AppUpdater();
 
   ipcMain.on('date-data', async (event, arg) => {
-    // console.log(store.get('installationDate'));
-    let data = store.get('subscriptionDate');
-    event.reply('date-data', data);
+    let installationDate = store.get('installationDate');
+    if (!installationDate) {
+      const currentDate = new Date().toISOString();
+      store.set('installationDate', currentDate);
+    }
+
+    installationDate = new Date(store.get('installationDate'));
+    const expirationDate = new Date(
+      installationDate.getFullYear() + 1,
+      installationDate.getMonth(),
+      installationDate.getDate()
+    );
+
+    event.reply('date-data', expirationDate);
   });
 
   ipcMain.on('Screen-data', async (event, arg) => {
@@ -143,7 +155,7 @@ const createWindow = async () => {
       console.log(exePath);
       event.reply('Screen-data', exePath);
 
-      var fun = function () {
+      const fun = function () {
         const child = spawn(exePath, [
           /* arguments */
         ]);
@@ -195,33 +207,19 @@ const createWindow = async () => {
 
       console.log(exePath);
 
-      // shell.openExternal(`file://${exePath}`);
-      // let myWindow: BrowserWindow | null = null;
-      // if (child) {
-      //   // child.close();
-      // }
-
-      // child = new BrowserWindow({
-      //   // fullscreen: true,
-
-      //   webPreferences: {
-      //     // fullscreen: true,
-      //     nodeIntegration: true,
-      //     contextIsolation: false,
-      //     javascript: true,
-      //     webSecurity: false,
-      //     allowRunningInsecureContent: true,
-      //   },
-      // });
       let child: BrowserWindow | null = null;
       child = new BrowserWindow({
         // fullscreen: true,
+        resizable: false,
+        minimizable: false,
         parent: mainWindow,
         modal: true,
+
         webPreferences: {
           // fullscreen: true,
           nodeIntegration: true,
           contextIsolation: false,
+          frame: false,
           javascript: true,
           webSecurity: false,
           allowRunningInsecureContent: true,
@@ -237,11 +235,15 @@ const createWindow = async () => {
         if (process.env.START_MINIMIZED) {
           child.maximize();
         } else {
-          child.show();
+          child.maximize();
+          // child.show();
         }
       });
     }
 
+    if (arg.event == 'open-link') {
+      shell.openExternal(arg.link);
+    }
     if (arg.event == 'close') {
       app.quit();
     }

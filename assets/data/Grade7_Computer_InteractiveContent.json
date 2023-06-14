@@ -1,0 +1,286 @@
+[
+    {
+      "grade": 7,
+      "subject": "Computer",
+      "type":"Interactive Content",
+      "Interactive": [
+        {
+          "Heading": "Classification of computers",
+          "interactive_items": [
+            {
+              "name": "On the basis of purpose",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Classification of computers\\on-basis-of-purpose\\on-basis-of-purpose.html"
+            },
+            {
+              "name": "On the basis of size",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Classification of computers\\on-basis-of-size\\on-basis-of-size.html"
+            },
+            {
+              "name": "On the basis of work",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Classification of computers\\on-the-basis-of-work\\on-the-basis-of-work.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Computer system",
+          "interactive_items": [
+            {
+              "name": "Introduction",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Computer system\\introduction\\introduction.html"
+            },
+            {
+              "name": "Computer hardware",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Computer system\\computer-hardware-flash-cards\\computer-hardware-flash-cards.html"
+            },
+            {
+              "name": "Computer memory",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Computer system\\computer-memory-column-question\\computer-memory-column-question.html"
+            },
+            {
+              "name": "Computer software",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Computer system\\computer-software-dialog-cards\\computer-software-dialog-cards.html"
+            },
+            {
+              "name": "Input unit",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Computer system\\input-unit-column-question\\input-unit-column-question.html"
+            },
+            {
+              "name": "Output unit",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Computer system\\output-unit-dialog-cards\\output-unit-dialog-cards.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Concept of number system",
+          "interactive_items": [
+            {
+              "name": "Number calculation",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Concept of number system\\number-calculation\\number-calculation.html"
+            },
+            {
+              "name": "Number conversion",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Concept of number system\\number-conversion\\number-conversion.html"
+            },
+            {
+              "name": "Types of number system",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Concept of number system\\types-of-number-system\\types-of-number-system.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "History of computer",
+          "interactive_items": [
+            {
+              "name": "Introduction",
+              "link": "assets\\H5P\\Grade 7\\Computer\\History of computer\\introduction\\introduction.html"
+            },
+            {
+              "name": "Computer generation",
+              "link": "assets\\H5P\\Grade 7\\Computer\\History of computer\\computer-generation\\computer-generation.html"
+            },
+            {
+              "name": "Electro-mechanical and electronic computers",
+              "link": "assets\\H5P\\Grade 7\\Computer\\History of computer\\electro-mechanical-and-electronic-computers\\electro-mechanical-and-electronic-computers.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Information and communication technology",
+          "interactive_items": [
+            {
+              "name": "Evolution of communication",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Information and communication technology\\evolution-of-communication\\evolution-of-communication.html"
+            },
+            {
+              "name": "ICT",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Information and communication technology\\ict\\ict.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Internet and website",
+          "interactive_items": [
+            {
+              "name": "Advantages of website",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Internet and website\\advantages-of-website\\advantages-of-website.html"
+            },
+            {
+              "name": "Popular terms used in website",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Internet and website\\popular-terms-used-in-website\\popular-terms-used-in-website.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Introduction to computer",
+          "interactive_items": [
+            {
+              "name": "Introduction",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Introduction to computer\\introduction\\introduction.html"
+            },
+            {
+              "name": "Application of a computer",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Introduction to computer\\application-of-a-computer\\application-of-a-computer.html"
+            },
+            {
+              "name": "Characteristics / Features of a computer",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Introduction to computer\\characteristics-features-of-a-computer\\characteristics-features-of-a-computer.html"
+            },
+            {
+              "name": "Limitations of a computer",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Introduction to computer\\limitations-of-a-computer\\limitations-of-a-computer.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Looping in QBASIC",
+          "interactive_items": [
+            {
+              "name": "Looping in QBASIC",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Looping in QBASIC\\looping-in-qbasic\\looping-in-qbasic.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Microsoft word",
+          "interactive_items": [
+            {
+              "name": "Microsoft word",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Microsoft word\\microsoft-word\\microsoft-word.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Multimedia and graphics",
+          "interactive_items": [
+            {
+              "name": "Introduction",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Multimedia and graphics\\introduction\\introduction.html"
+            },
+            {
+              "name": "Applications of multimedia",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Multimedia and graphics\\applications-of-multimedia\\applications-of-multimedia.html"
+            },
+            {
+              "name": "Hardware and software components of multimedia",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Multimedia and graphics\\hardware-and-software-components-of-multimedia\\hardware-and-software-components-of-multimedia.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Operating system (windows environment)",
+          "interactive_items": [
+            {
+              "name": "Introduction",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Operating system (windows environment)\\introduction\\introduction.html"
+            },
+            {
+              "name": "Manipulating windows",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Operating system (windows environment)\\manipulating-windows\\manipulating-windows.html"
+            },
+            {
+              "name": "Microsoft windows",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Operating system (windows environment)\\microsoft-windows\\microsoft-windows.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Photoshop (working with graphics)",
+          "interactive_items": [
+            {
+              "name": "Introduction and loading photoshop",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Photoshop (working with graphics)\\introduction-and-loading-photoshop\\introduction-and-loading-photoshop.html"
+            },
+            {
+              "name": "Adobe photoshop interface and palletes",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Photoshop (working with graphics)\\adobe-photoshop-interface-and-palletes\\adobe-photoshop-interface-and-palletes.html"
+            },
+            {
+              "name": "Important shortcut keys",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Photoshop (working with graphics)\\important-shortcut-keys\\important-shortcut-keys.html"
+            },
+            {
+              "name": "Layer",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Photoshop (working with graphics)\\layer\\layer.html"
+            },
+            {
+              "name": "Tool box",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Photoshop (working with graphics)\\tool-box\\tool-box.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "QBASIC programming",
+          "interactive_items": [
+            {
+              "name": "Introduction",
+              "link": "assets\\H5P\\Grade 7\\Computer\\QBASIC programming\\introduction\\introduction.html"
+            },
+            {
+              "name": "Constant and variables",
+              "link": "assets\\H5P\\Grade 7\\Computer\\QBASIC programming\\constant-and-variables\\constant-and-variables.html"
+            },
+            {
+              "name": "Operators and expressions",
+              "link": "assets\\H5P\\Grade 7\\Computer\\QBASIC programming\\operators-and-expressions\\operators-and-expressions.html"
+            },
+            {
+              "name": "QBASIC statements",
+              "link": "assets\\H5P\\Grade 7\\Computer\\QBASIC programming\\qbasic-statements\\qbasic-statements.html"
+            },
+            {
+              "name": "Starting QBASIC",
+              "link": "assets\\H5P\\Grade 7\\Computer\\QBASIC programming\\starting-qbasic\\starting-qbasic.html"
+            },
+            {
+              "name": "Understanding syntax",
+              "link": "assets\\H5P\\Grade 7\\Computer\\QBASIC programming\\understanding-syntax\\understanding-syntax.html"
+            },
+            {
+              "name": "Writing New Progam",
+              "link": "assets\\H5P\\Grade 7\\Computer\\QBASIC programming\\writing-new-progam\\writing-new-progam.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Spreadsheet application",
+          "interactive_items": [
+            {
+              "name": "Introduction",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Spreadsheet application\\introduction\\introduction.html"
+            },
+            {
+              "name": "Formula in worksheet",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Spreadsheet application\\formula-in-worksheet\\formula-in-worksheet.html"
+            },
+            {
+              "name": "The MS - excel screen",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Spreadsheet application\\the-ms-excel-screen\\the-ms-excel-screen.html"
+            },
+            {
+              "name": "Working with chart",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Spreadsheet application\\working-with-chart\\working-with-chart.html"
+            }
+ 	        ]
+    	  },
+        {
+          "Heading": "Types of computer softwares",
+          "interactive_items": [
+            {
+              "name": "Introduction",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Types of computer softwares\\introduction\\introduction.html"
+            },
+            {
+              "name": "Application software",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Types of computer softwares\\application-software\\application-software.html"
+            },
+            {
+              "name": "System software",
+              "link": "assets\\H5P\\Grade 7\\Computer\\Types of computer softwares\\system-software\\system-software.html"
+            }
+ 	        ]
+    	  }
+   ]
+  }
+]
+          
+  

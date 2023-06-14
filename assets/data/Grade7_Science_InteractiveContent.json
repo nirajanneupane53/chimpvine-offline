@@ -1,0 +1,216 @@
+[
+    {
+      "grade": 7,
+      "subject": "Science",
+      "type":"Interactive Content",
+      "Interactive": [
+        {
+          "Heading": "Cell and tissue",
+          "interactive_items": [
+            {
+              "name": "Cell and tissue",
+              "link": "assets\\H5P\\Grade 7\\Science\\Cell and tissue\\cell-and-tissue\\cell-and-tissue.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Electricity",
+          "interactive_items": [
+            {
+              "name": "Electricity",
+              "link": "assets\\H5P\\Grade 7\\Science\\Electricity\\electricity\\electricity.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Environment and its balance",
+          "interactive_items": [
+            {
+              "name": "Environment and its balance",
+              "link": "assets\\H5P\\Grade 7\\Science\\Environment and its balance\\environment-and-its-balance\\environment-and-its-balance.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Environment and sustainable development",
+          "interactive_items": [
+            {
+              "name": "Environment and sustainable development",
+              "link": "assets\\H5P\\Grade 7\\Science\\Environment and sustainable development\\environment-and-sustainable-development\\environment-and-sustainable-development.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Environmental degradation and its conservation",
+          "interactive_items": [
+            {
+              "name": "Environmental degradation and its conservation",
+              "link": "assets\\H5P\\Grade 7\\Science\\Environmental degradation and its conservation\\environmental-degradation-and-its-conservation\\environmental-degradation-and-its-conservation.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Force and motion",
+          "interactive_items": [
+            {
+              "name": "Force and motion",
+              "link": "assets\\H5P\\Grade 7\\Science\\Force and motion\\force-and-motion\\force-and-motion.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Heat",
+          "interactive_items": [
+            {
+              "name": "Heat",
+              "link": "assets\\H5P\\Grade 7\\Science\\Heat\\heat\\heat.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Life processes",
+          "interactive_items": [
+            {
+              "name": "Life processes",
+              "link": "assets\\H5P\\Grade 7\\Science\\Life processes\\life-processes\\life-processes.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Light",
+          "interactive_items": [
+            {
+              "name": "Light",
+              "link": "assets\\H5P\\Grade 7\\Science\\Light\\light\\light.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Living beings animal life",
+          "interactive_items": [
+            {
+              "name": "Living beings",
+              "link": "assets\\H5P\\Grade 7\\Science\\Living beings animal life\\living-beings\\living-beings.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Magnetism",
+          "interactive_items": [
+            {
+              "name": "Magnet",
+              "link": "assets\\H5P\\Grade 7\\Science\\Magnetism\\magnet\\magnet.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Matter",
+          "interactive_items": [
+            {
+              "name": "Matter",
+              "link": "assets\\H5P\\Grade 7\\Science\\Matter\\matter\\matter.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Measurement",
+          "interactive_items": [
+            {
+              "name": "Measurement",
+              "link": "assets\\H5P\\Grade 7\\Science\\Measurement\\measurement\\measurement.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Metals and non-metals",
+          "interactive_items": [
+            {
+              "name": "Metals and non-metal",
+              "link": "assets\\H5P\\Grade 7\\Science\\Metals and non-metals\\metal-and-non-metal\\metal-and-non-metal.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Mixture",
+          "interactive_items": [
+            {
+              "name": "mixture",
+              "link": "assets\\H5P\\Grade 7\\Science\\Mixture\\mixture\\mixture.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Pressure",
+          "interactive_items": [
+            {
+              "name": "Pressure",
+              "link": "assets\\H5P\\Grade 7\\Science\\Pressure\\pressure\\pressure.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Simple machine",
+          "interactive_items": [
+            {
+              "name": "Simple machines",
+              "link": "assets\\H5P\\Grade 7\\Science\\Simple machine\\simple-machines\\simple-machines.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Some useful chemical",
+          "interactive_items": [
+            {
+              "name": "Some useful chemicals",
+              "link": "assets\\H5P\\Grade 7\\Science\\Some useful chemical\\some-useful-chemicals\\some-useful-chemicals.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Sound",
+          "interactive_items": [
+            {
+              "name": "Sound",
+              "link": "assets\\H5P\\Grade 7\\Science\\Sound\\sound\\sound.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Structure of earth",
+          "interactive_items": [
+            {
+              "name": "Structure of the earth",
+              "link": "assets\\H5P\\Grade 7\\Science\\Structure of earth\\structure-of-the-earth\\structure-of-the-earth.html"
+            }
+          ]
+        },
+        {
+          "Heading": "The earth and space",
+          "interactive_items": [
+            {
+              "name": "The earth and space",
+              "link": "assets\\H5P\\Grade 7\\Science\\The earth and space\\the-earth-and-space\\the-earth-and-space.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Weather and climate",
+          "interactive_items": [
+            {
+              "name": "Weather and climate",
+              "link": "assets\\H5P\\Grade 7\\Science\\Weather and climate\\weather-and-climate\\weather-and-climate.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Energy, work and power",
+          "interactive_items": [
+            {
+              "name": "Energy, work and power",
+              "link": "assets\\H5P\\Grade 7\\Science\\Energy, work and power\\energy-work-and-power\\energy-work-and-power.html"
+            }
+          ]
+        }
+   ]
+  }
+]

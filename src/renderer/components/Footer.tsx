@@ -5,6 +5,13 @@ import { FiMapPin, FiGlobe, FiPhone } from 'react-icons/fi';
 // import AdditionInteractiveBook from '../../h5p/addition-interactive-book';
 
 const Footer = () => {
+  const openLink = () => {
+    const sentData = {
+      event: 'open-link',
+      link: ' https://np.chimpvine.com/',
+    };
+    window.electron.ipcRenderer.sendMessage('Screen-data', sentData);
+  };
   return (
     <div className="mt-4 mb-3">
       <hr
@@ -52,8 +59,7 @@ const Footer = () => {
 
                 <h6 className="text-uppercase fw-bold ">Our Website</h6>
                 <p>
-                  {' '}
-                  <a href="https://np.chimpvine.com/">
+                  <a onClick={() => openLink()} style={{ cursor: 'pointer' }}>
                     https://np.chimpvine.com/
                   </a>
                 </p>

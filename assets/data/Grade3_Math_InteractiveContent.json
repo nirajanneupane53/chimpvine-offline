@@ -41,37 +41,38 @@
                 "Heading": "Fundamental process of mathematics",
                 "interactive_items": [
                     {
+                        "name": "Fundamental process of mathematics - Interactive book",
+                        "link": "assets\\H5P\\Grade 3\\Math\\Fundamental process of mathematics\\fundamental-process-of-mathematics-interactive-book\\fundamental-process-of-mathematics-interactive-book.html"
+                    },
+                    {
                         "name": "Addition",
                         "link": "assets\\H5P\\Grade 3\\Math\\Fundamental process of mathematics\\addition\\addition.html"
                     },
                     {
-                        "name": "Division",
-                        "link": "assets\\H5P\\Grade 3\\Math\\Fundamental process of mathematics\\division\\division.html"
-                    },
-                    {
-                        "name": "Fundamental process of mathematics - Interactive book",
-                        "link": "assets\\H5P\\Grade 3\\Math\\Fundamental process of mathematics\\fundamental-process-of-mathematics-interactive-book\\fundamental-process-of-mathematics-interactive-book.html"
+                        "name": "Subtraction",
+                        "link": "assets\\H5P\\Grade 3\\Math\\Fundamental process of mathematics\\subtraction\\subtraction.html"
                     },
                     {
                         "name": "Multiplication",
                         "link": "assets\\H5P\\Grade 3\\Math\\Fundamental process of mathematics\\multiplication\\multiplication.html"
                     },
                     {
-                        "name": "Subtraction",
-                        "link": "assets\\H5P\\Grade 3\\Math\\Fundamental process of mathematics\\subtraction\\subtraction.html"
+                        "name": "Division",
+                        "link": "assets\\H5P\\Grade 3\\Math\\Fundamental process of mathematics\\division\\division.html"
                     }
+                    
                 ]
             },
             {
                 "Heading": "Geometry",
                 "interactive_items": [
                     {
-                        "name": "Comparison of angles",
-                        "link": "assets\\H5P\\Grade 3\\Math\\Geometry\\comparison-of-angles\\comparison-of-angles.html"
-                    },
-                    {
                         "name": "Geometry - Interactive book",
                         "link": "assets\\H5P\\Grade 3\\Math\\Geometry\\geometry-interactive-book\\geometry-interactive-book.html"
+                    },
+                    {
+                        "name": "Comparison of angles",
+                        "link": "assets\\H5P\\Grade 3\\Math\\Geometry\\comparison-of-angles\\comparison-of-angles.html"
                     },
                     {
                         "name": "Plane figures",
@@ -132,7 +133,7 @@
                         "link": "assets\\H5P\\Grade 3\\Math\\Time\\timelines\\timelines.html"
                     },
                     {
-                        "name": "Time",
+                        "name": "Time: review",
                         "link": "assets\\H5P\\Grade 3\\Math\\Time\\time-review\\time-review.html"
                     }
                 ]

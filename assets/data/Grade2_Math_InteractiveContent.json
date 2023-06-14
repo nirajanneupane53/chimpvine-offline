@@ -89,7 +89,7 @@
           "Heading": "Time",
           "interactive_items": [
             {
-              "name": "Time interactive book",
+              "name": "Time - Interactive book",
               "link": "assets\\H5P\\Grade 2\\Math\\Time\\time-interactive-book\\time-interactive-book.html"
             },
             {
@@ -114,7 +114,7 @@
         "Heading": "Geometry",
         "interactive_items": [
           {
-            "name": "Geometry interactive book",
+            "name": "Geometry - Interactive book",
             "link": "assets\\H5P\\Grade 2\\Math\\Geometry\\geometry-interactive-book\\geometry-interactive-book.html"
           },
           {

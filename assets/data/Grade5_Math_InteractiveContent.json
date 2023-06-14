@@ -8,20 +8,20 @@
                 "Heading": "Coordinate plan",
                 "interactive_items": [
                     {
-                        "name": "Analyze graphed relationships",
-                        "link": "assets\\H5P\\Grade 5\\Math\\Coordinate plan\\analyze-graphed-relationships\\analyze-graphed-relationships.html"
-                    },
-                    {
-                        "name": "Coordinate planes ad maps",
-                        "link": "assets\\H5P\\Grade 5\\Math\\Coordinate plan\\coordinate-planes-as-maps\\coordinate-planes-as-maps.html"
-                    },
-                    {
                         "name": "Describe the coordinate plane",
                         "link": "assets\\H5P\\Grade 5\\Math\\Coordinate plan\\describe-the-coordinate-plane\\describe-the-coordinate-plane.html"
                     },
                     {
                         "name": "Objects on a coordinate plane",
                         "link": "assets\\H5P\\Grade 5\\Math\\Coordinate plan\\objects-on-a-coordinate-plane\\objects-on-a-coordinate-plane.html"
+                    },
+                    {
+                        "name": "Analyze graphed relationships",
+                        "link": "assets\\H5P\\Grade 5\\Math\\Coordinate plan\\analyze-graphed-relationships\\analyze-graphed-relationships.html"
+                    },
+                    {
+                        "name": "Coordinate planes as maps",
+                        "link": "assets\\H5P\\Grade 5\\Math\\Coordinate plan\\coordinate-planes-as-maps\\coordinate-planes-as-maps.html"
                     }
                 ]
             },
@@ -30,7 +30,7 @@
                 "interactive_items": [
                     {
                         "name": "Addition and subtraction of decimals",
-                        "link": "assets\\H5P\\Grade 5\\Math\\Decimals\\addition-and-subtraction-of-decimals\\addition.html"
+                        "link": "assets\\H5P\\Grade 5\\Math\\Decimals\\addition-and-subtraction-of-decimals\\addition-and-subtraction-of-decimals.html"
                     },
                     {
                         "name": "Conversion of decimal into fractions",
@@ -71,12 +71,16 @@
                 "Heading": "Number system",
                 "interactive_items": [
                     {
-                        "name": "Cube and cube root",
-                        "link": "assets\\H5P\\Grade 5\\Math\\Number system\\cube-and-cube-root\\cube-and-cube-root.html"
-                    },
-                    {
                         "name": "Factors and multiples",
                         "link": "assets\\H5P\\Grade 5\\Math\\Number system\\factors-and-multiples\\factors-and-multiples.html"
+                    },
+                    {
+                        "name": "Square and square root of numbers",
+                        "link": "assets\\H5P\\Grade 5\\Math\\Number system\\square-and-square-root-of-numbers\\square-and-square-root-of-numbers.html"
+                    },
+                    {
+                        "name": "Cube and cube root",
+                        "link": "assets\\H5P\\Grade 5\\Math\\Number system\\cube-and-cube-root\\cube-and-cube-root.html"
                     },
                     {
                         "name": "Highest common factor (HCF)",
@@ -85,10 +89,6 @@
                     {
                         "name": "Lowest common factor (LCM)",
                         "link": "assets\\H5P\\Grade 5\\Math\\Number system\\lowest-common-factor-lcm\\lowest-common-factor-lcm.html"
-                    },
-                    {
-                        "name": "Square and square root of numbers",
-                        "link": "assets\\H5P\\Grade 5\\Math\\Number system\\square-and-square-root-of-numbers\\square-and-square-root-of-numbers.html"
                     }
                 ]
             },
@@ -113,24 +113,24 @@
                 "Heading": "Fractions",
                 "interactive_items": [
                     {
+                        "name": "Fraction of a whole word problems",
+                        "link": "assets\\H5P\\Grade 5\\Math\\Fractions\\fractions-of-a-whole-word-problems\\fractions-of-a-whole-word-problems.html"
+                    },
+                    {
                         "name": "Addition of mixed numbers",
                         "link": "assets\\H5P\\Grade 5\\Math\\Fractions\\addition-of-mixed-numbers\\addition-of-mixed-numbers.html"
                     },
                     {
-                        "name": "Division of mixed numbers",
-                        "link": "assets\\H5P\\Grade 5\\Math\\Fractions\\division-of-mixed-numbers\\division-of-mixed-numbers.html"
-                    },
-                    {
-                        "name": "Fraction of a whole word problems",
-                        "link": "assets\\H5P\\Grade 5\\Math\\Fractions\\fractions-of-a-whole-word-problems\\fractions-of-a-whole-word-problems.html"
+                        "name": "Subtraction of mixed numbers",
+                        "link": "assets\\H5P\\Grade 5\\Math\\Fractions\\subtraction-of-mixed-numbers\\subtraction-of-mixed-numbers.html"
                     },
                     {
                         "name": "Multiplication of mixed numbers",
                         "link": "assets\\H5P\\Grade 5\\Math\\Fractions\\multiplication-of-mixed-numbers\\multiplication-of-mixed-numbers.html"
                     },
                     {
-                        "name": "Subtraction of mixed numbers",
-                        "link": "assets\\H5P\\Grade 5\\Math\\Fractions\\subtraction-of-mixed-numbers\\subtraction-of-mixed-numbers.html"
+                        "name": "Division of mixed numbers",
+                        "link": "assets\\H5P\\Grade 5\\Math\\Fractions\\division-of-mixed-numbers\\division-of-mixed-numbers.html"
                     }
                 ]
             },

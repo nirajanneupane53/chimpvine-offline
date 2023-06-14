@@ -11,7 +11,7 @@ import Close from './components/Close';
 import Subscription from './screens/content/Subscription';
 
 function Main() {
-  const [date, setDate] = useState<Date | null>(null);
+  const [date, setDate] = useState<any>();
   const [showPageTwo, setShowPageTwo] = useState(false);
 
   useEffect(() => {
@@ -20,18 +20,24 @@ function Main() {
     window.electron.ipcRenderer.once('date-data', async (arg: any) => {
       // eslint-disable-next-line no-console
       const data = await arg;
+      // console.log(data);
+      setDate(data);
+
       const certainDateObj = new Date(data);
+
       const currentDate = new Date();
+      // console.log(currentDate);
       if (currentDate > certainDateObj) {
         setShowPageTwo(true);
       }
-
+      // consloe.log(certainDateObj);
       // setDate(certainDateObj);
     });
   }, []);
   console.log(showPageTwo);
+
   return (
-    <div className="container">
+    <div className="container ">
       <div style={{ position: 'absolute', right: '2%', top: '-2%' }}>
         <Close />
       </div>

@@ -36,7 +36,7 @@
           "interactive_items": [
             {
               "name": "Aquatic animals and their characteristics - Interactive book",
-              "link": "assets\\H5P\\Grade 4\\Science\\Aquatic animals and their characteristics\\aquatic-animals-and-their-characteristics-interactive-book\\aquatic-animals-and-their-characteristics-interactive-book.html"
+              "link": "assets\\H5P\\Grade 4\\Science\\Aquatic animals and their characteristics\\aquatic-animals-and-their-characteristics\\aquatic-animals-and-their-characteristics.html"
             }
           ]
         },
@@ -72,7 +72,7 @@
           "interactive_items": [
             {
               "name": "Weather",
-              "link": "assets\\H5P\\Grade 4\\Science\\Weather\\weather\\weather.html"
+              "link": "assets\\H5P\\Grade 4\\Science\\Weather\\weather-and-seasons\\weather-and-seasons.html"
             }
           ]
         },
@@ -99,7 +99,7 @@
           "interactive_items": [
             {
               "name": "Terrestrial animals and their characteristics - Interactive book",
-              "link": "assets\\H5P\\Grade 4\\Science\\Terrestrial Animals and their Characteristics\\terrestrial-animals-and-their-characteristics-interactive-book\\terrestrial-animals-and-their-characteristics-interactive-book.html"
+              "link": "assets\\H5P\\Grade 4\\Science\\Terrestrial Animals and their Characteristics\\terrestrial-animals-and-their-characteristics\\terrestrial-animals-and-their-characteristics.html"
             }
           ]
         },
@@ -173,13 +173,9 @@
 	  {
           "Heading": "Terrestrial Plants and their Characteristics",
           "interactive_items": [
-            {
-              "name": "Terrestrial plants and their characteristics - Interactive book",
-              "link": "assets\\H5P\\Grade 4\\Science\\Terrestrial Plants and their Characteristics\\terrestrial-plants-and-their-characteristics-interactive-book\\terrestrial-plants-and-their-characteristics-interactive-book.html"
-            },
-		{
-              "name": "Diseases",
-              "link": "assets\\H5P\\Grade 4\\Science\\Terrestrial Plants and their Characteristics\\terrestrial-plants-and-their-characteristics-interactive-quiz\\terrestrial-plants-and-their-characteristics-interactive-quiz.html"
+		        {
+              "name": "Terrestrial plants and their characteristics",
+              "link": "assets\\H5P\\Grade 4\\Science\\Terrestrial Plants and their Characteristics\\terrestrial-plants-and-their-characteristics\\terrestrial-plants-and-their-characteristics.html"
             }
           ]
         },

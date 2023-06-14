@@ -12,6 +12,34 @@ body {
 
 }
 
+body::-webkit-scrollbar {
+  width: 16px;
+}
+
+body:not([no-y-overflow])::-webkit-scrollbar-thumb {
+  height: 55px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  /* background-color: var(--yt-spec-text-secondary); */
+  background-color: #d3c7e0d1;
+
+
+}
+
+
+body::-webkit-scrollbar-thumb {
+  height: 55px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-clip: content-box;
+  /* background-color: hsl(0,0%,67%); */
+  background-color: #dad5e0b9;
+}
+
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "cocoonCustomPrimary",sans-serif;
 
@@ -88,3 +116,5 @@ a, a:active, a:focus, a:visited{
     bottom: 0;
     margin: auto 0;
 }
+
+

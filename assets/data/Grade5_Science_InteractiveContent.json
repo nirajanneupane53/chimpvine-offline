@@ -9,7 +9,7 @@
           "interactive_items": [
             {
               "name": "Change in state of matter",
-              "link": "assets\\H5P\\Grade 5\\Science\\Change in State of Matter\\change-in-state-of-matter\\change-in-state-of-matter.html"
+              "link": "assets\\H5P\\Grade 5\\Science\\Change in State of Matter\\change-in-the-state-of-matter\\change-in-the-state-of-matter.html"
             }
           ]
         },
@@ -31,7 +31,7 @@
           "interactive_items": [
             {
               "name": "Health service and community health",
-              "link": "assets\\H5P\\Grade 5\\Science\\Health service and community health\\health-service-and-community-health\\health-service-and-community-health.html"
+              "link": "assets\\H5P\\Grade 5\\Science\\Health service and community health\\health-services-and-community-health\\health-services-and-community-health.html"
             }
           ]
         },
@@ -45,11 +45,11 @@
           ]
         },
         {
-          "Heading": "Sources of Energy",
+          "Heading": "Sources of energy",
           "interactive_items": [
             {
-              "name": "Sources of Energy",
-              "link": "assets\\H5P\\Grade 5\\Science\\Sources of Energy\\sources-of-energy\\sources-of-energy.html"
+              "name": "Sources of energy",
+              "link": "assets\\H5P\\Grade 5\\Science\\Sources of energy\\sources-of-energy\\sources-of-energy.html"
             }
           ]
         },
@@ -57,8 +57,8 @@
           "Heading": "Solid waste",
           "interactive_items": [
             {
-              "name": "Solid wastes",
-              "link": "assets\\H5P\\Grade 5\\Science\\Solid waste\\solid-wastes\\solid-wastes.html"
+              "name": "Solid waste",
+              "link": "assets\\H5P\\Grade 5\\Science\\Solid waste\\solid-waste\\solid-waste.html"
             }
           ]
         },

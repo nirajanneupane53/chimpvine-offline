@@ -1,0 +1,272 @@
+[
+    {
+      "grade": 2,
+      "subject": "English",
+      "type":"Interactive Content",
+      "Interactive": [
+        {
+          "Heading": "Adjectives and adverbs",
+          "interactive_items": [
+            {
+              "name": "Adjectives : review",
+              "link": "assets\\H5P\\Grade 2\\English\\Adjectives and adverbs\\adjectives-review\\adjectives-review.html"
+            },
+            {
+                "name": "Identify adjective and adverb",
+                "link": "assets\\H5P\\Grade 2\\English\\Adjectives and adverbs\\identify-adjective-and-adverb\\identify-adjective-and-adverb.html"
+              },
+              {
+                "name": "Identify adverbs",
+                "link": "assets\\H5P\\Grade 2\\English\\Adjectives and adverbs\\identify-adverbs\\identify-adverbs.html"
+              },
+              {
+                "name": "Use sense words",
+                "link": "assets\\H5P\\Grade 2\\English\\Adjectives and adverbs\\use-sense-words\\use-sense-words.html"
+              },
+              {
+                "name": "Identify adjectives",
+                "link": "assets\\H5P\\Grade 2\\English\\Adjectives and adverbs\\identify-adjectives\\identify-adjectives.html"
+              },
+              {
+                "name": "Identify comparative and superlative adjectives",
+                "link": "assets\\H5P\\Grade 2\\English\\Adjectives and adverbs\\identify-comparative-and-superlative-adjectives\\identify-comparative-and-superlative-adjectives.html"
+              }
+          ]
+        },
+        {
+          "Heading": "Articles",
+          "interactive_items": [
+            {
+              "name": "Use the correct article: a or an",
+              "link": "assets\\H5P\\Grade 2\\English\\Articles\\use-the-correct-article-a-or-an\\use-the-correct-article-a-or-an.html"
+            },
+            {
+                "name": "Identify articles",
+                "link": "assets\\H5P\\Grade 2\\English\\Articles\\identify-articles\\identify-articles.html"
+              }
+          ]
+        },
+        {
+          "Heading": "Conjunction",
+          "interactive_items": [
+            {
+              "name": "Conjuction",
+              "link": "assets\\H5P\\Grade 2\\English\\Conjunction\\conjuction\\conjuction.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Contraction",
+          "interactive_items": [
+            {
+              "name": "contraction",
+              "link": "assets\\H5P\\Grade 2\\English\\Contraction\\contraction\\contraction.html"
+            }
+
+          ]
+        },
+        {
+          "Heading": "Doing words",
+          "interactive_items": [
+            {
+              "name": "Doing words",
+              "link": "assets\\H5P\\Grade 2\\English\\Doing words\\doing-words\\doing-words.html"
+            }
+
+          ]
+        },
+        {
+          "Heading": "Have_has",
+          "interactive_items": [
+            {
+              "name": "Have and has",
+              "link": "assets\\H5P\\Grade 2\\English\\Have_has\\have-and-has\\have-and-has.html"
+            }
+
+        ]
+        },
+        {
+          "Heading": "How many",
+          "interactive_items": [
+            {
+              "name": "How many ...?",
+              "link": "assets\\H5P\\Grade 2\\English\\How many\\how-many\\how-many.html"
+            }
+
+        ]
+        },
+        {
+          "Heading": "Is,Am,Are",
+          "interactive_items": [
+            {
+              "name": "Is/Am/Are",
+              "link": "assets\\H5P\\Grade 2\\English\\Is,Am,Are\\is-am-are\\is-am-are.html"
+            }
+
+        ]
+        },
+        {
+          "Heading": "Noun",
+          "interactive_items": [
+            {
+              "name": "Use singular and plural nouns",
+              "link": "assets\\H5P\\Grade 2\\English\\Noun\\use-singular-and-plural-nouns\\use-singular-and-plural-nouns.html"
+            },
+            {
+              "name": "Identify nouns",
+              "link": "assets\\H5P\\Grade 2\\English\\Noun\\identify-nouns\\identify-nouns.html"
+            },
+            {
+              "name": "Nouns : review",
+              "link": "assets\\H5P\\Grade 2\\English\\Noun\\nouns-review\\nouns-review.html"
+            }
+
+        ]
+        },
+        {
+          "Heading": "Preposition",
+          "interactive_items": [
+            {
+              "name": "Select the best preposition to match the picture",
+              "link": "assets\\H5P\\Grade 2\\English\\Preposition\\select-the-best-preposition-to-match-the-picture\\select-the-best-preposition-to-match-the-picture.html"
+            },
+            {
+                "name": "Preposition",
+                "link": "assets\\H5P\\Grade 2\\English\\Preposition\\preposition\\preposition.html"
+              },
+              {
+                "name": "Fill the best preposition to complete the sentence",
+                "link": "assets\\H5P\\Grade 2\\English\\Preposition\\fill-the-best-preposition-to-complete-the-sentence\\fill-the-best-preposition-to-complete-the-sentence.html"
+              }
+
+        ]
+        },
+        {
+          "Heading": "Pronouns",
+          "interactive_items": [
+            {
+              "name": "Identify personal pronouns",
+              "link": "assets\\H5P\\Grade 2\\English\\Pronouns\\identify-personal-pronouns\\identify-personal-pronouns.html"
+            },
+            {
+                "name": "Choose the correct personal pronoun",
+                "link": "assets\\H5P\\Grade 2\\English\\Pronouns\\choose-the-correct-personal-pronoun\\choose-the-correct-personal-pronoun.html"
+              },
+              {
+                "name": "Pronouns : review",
+                "link": "assets\\H5P\\Grade 2\\English\\Pronouns\\pronouns-review\\pronouns-review.html"
+              },
+              {
+                "name": "Use possessive pronouns",
+                "link": "assets\\H5P\\Grade 2\\English\\Pronouns\\use-possessive-pronouns\\use-possessive-pronouns.html"
+              },
+              {
+                "name": "Identify personal pronouns",
+                "link": "assets\\H5P\\Grade 2\\English\\Pronouns\\identify-possessive-pronouns\\identify-possessive-pronouns.html"
+              }
+
+        ]
+        },
+        {
+          "Heading": "Punctuation",
+          "interactive_items": [
+            {
+              "name": "Punctuation",
+              "link": "assets\\H5P\\Grade 2\\English\\Punctuation\\punctuation\\punctuation.html"
+            }
+
+        ]
+        },
+        {
+          "Heading": "Sentence transformation",
+          "interactive_items": [
+            {
+              "name": "Sentence",
+              "link": "assets\\H5P\\Grade 2\\English\\Sentence transformation\\sentence\\sentence.html"
+            },
+            {
+                "name": "Sentence transformation",
+                "link": "assets\\H5P\\Grade 2\\English\\Sentence transformation\\sentence-transformation\\sentence-transformation.html"
+              }
+
+        ]
+        },
+        {
+          "Heading": "Smart writing activities",
+          "interactive_items": [
+            {
+              "name": "Smart activities - I",
+              "link": "assets\\H5P\\Grade 2\\English\\Smart writing activities\\smart-activities-i\\smart-activities-i.html"
+            },
+            {
+                "name": "Smart activities - II",
+                "link": "assets\\H5P\\Grade 2\\English\\Smart writing activities\\smart-activities-ii\\smart-activities-ii.html"
+              }
+
+        ]
+        },
+        {
+          "Heading": "The English Alphabet",
+          "interactive_items": [
+            {
+              "name": "Vowels and consonants",
+              "link": "assets\\H5P\\Grade 2\\English\\The English Alphabet\\vowels-and-consonants\\vowels-and-consonants.html"
+            },
+            {
+                "name": "Alphabetical order",
+                "link": "assets\\H5P\\Grade 2\\English\\The English Alphabet\\alphabetical-order\\alphabetical-order.html"
+              }
+
+        ]
+        },
+        {
+          "Heading": "Verb tense",
+          "interactive_items": [
+            {
+              "name": "Form and use the future tense",
+              "link": "assets\\H5P\\Grade 2\\English\\Verb tense\\form-and-use-the-future-tense\\form-and-use-the-future-tense.html"
+            },
+            {
+                "name": "Form and use the irregular past tense",
+                "link": "assets\\H5P\\Grade 2\\English\\Verb tense\\form-and-use-the-irregular-past-tense\\form-and-use-the-irregular-past-tense.html"
+              },
+              {
+                "name": "Form and use the regular past tense",
+                "link": "assets\\H5P\\Grade 2\\English\\Verb tense\\form-and-use-the-regular-past-tense\\form-and-use-the-regular-past-tense.html"
+              },
+              {
+                "name": "Is the sentence in the past, present, or future tense?",
+                "link": "assets\\H5P\\Grade 2\\English\\Verb tense\\is-the-sentence-in-the-past-present-or-future-tense\\is-the-sentence-in-the-past-present-or-future-tense.html"
+              },
+              {
+                "name": "Select the sentence in the future tense",
+                "link": "assets\\H5P\\Grade 2\\English\\Verb tense\\select-the-sentence-in-the-future-tense\\select-the-sentence-in-the-future-tense.html"
+              },
+              {
+                "name": "Select the sentence in the present tense",
+                "link": "assets\\H5P\\Grade 2\\English\\Verb tense\\select-the-sentence-in-the-present-tense\\select-the-sentence-in-the-present-tense.html"
+              },
+              {
+                "name": "Select the sentence in the regular past tense",
+                "link": "assets\\H5P\\Grade 2\\English\\Verb tense\\select-the-sentence-in-the-regular-past-tense\\select-the-sentence-in-the-regular-past-tense.html"
+              },
+              {
+                "name": "Tense: review",
+                "link": "assets\\H5P\\Grade 2\\English\\Verb tense\\tense-review\\tense-review.html"
+              }
+
+        ]
+        },
+        {
+          "Heading": "What_who_when_where_which",
+          "interactive_items": [
+            {
+              "name": "What/who/when/where/which",
+              "link": "assets\\H5P\\Grade 2\\English\\What_who_when_where_which\\what-who-when-where-which\\what-who-when-where-which.html"
+            }
+
+        ]
+        }
+  ]
+}
+]

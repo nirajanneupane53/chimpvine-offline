@@ -60,17 +60,20 @@ const Subject = () => {
 
       <div className="row">
         <div className="col text-center">
-          <h1 className="fw-bold" style={{ fontSize: '75px' }}>
+          <h1 className="fw-bold" style={{ fontSize: '50px' }}>
             Grade {grade}
           </h1>
-          <h2 className="fw-bold"> {subject}</h2>
+          <h2 className="fw-bold" style={{ fontSize: '25px' }}>
+            {' '}
+            {subject}
+          </h2>
           <hr
-            className="my-5"
+            className="my-4"
             style={{ height: '4px', backgroundColor: 'white' }}
           />
         </div>
       </div>
-      <div className="mt-5 d-flex gap-5">
+      <div className=" d-flex gap-5">
         {subitems.map((item, index) => (
           // <Link  to={`/subject/${subject.link}?grade=${grade.grade}&subject=${subject.name}`}>
           <div key={index}>
@@ -96,7 +99,7 @@ const Subject = () => {
         ))}
       </div>
 
-      <div className="pt-5">
+      <div className="">
         {' '}
         <Footer />
       </div>

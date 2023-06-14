@@ -9,7 +9,7 @@
           "interactive_items": [
             {
               "name": "Geometry - Interactive book",
-              "link": "assets\\H5P\\Grade 4\\Math\\Geometry\\geometry-interactive book\\geometry-interactive book.html"
+              "link": "assets\\H5P\\Grade 4\\Math\\Geometry\\geometry-interactive-book\\geometry-interactive-book.html"
             },
             {
               "name": "Measurement of line segments",
@@ -54,7 +54,7 @@
             },
           	{
               "name": "Simplification",
-              "link": "assets\\H5P\\Grade 4\\Math\\Fundamental process of mathematics\\simplification\\simplifications.html"
+              "link": "assets\\H5P\\Grade 4\\Math\\Fundamental process of mathematics\\simplification\\simplification.html"
             }
 	    ]
         },

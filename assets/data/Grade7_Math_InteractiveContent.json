@@ -1,0 +1,363 @@
+[
+    {
+      "grade": 7,
+      "subject": "Math",
+      "type":"Interactive Content",
+      "Interactive": [
+        {
+          "Heading": "Algebraic Expressions",
+          "interactive_items": [
+            {
+              "name": "Introduction and classification of polynomials",
+              "link": "assets\\H5P\\Grade 7\\Math\\Algebraic Expressions\\introduction-and-classification-of-polynomials\\introduction-and-classification-of-polynomials.html"
+            },
+            {
+              "name": "Geometrical interpretation and use of (a+-b)2",
+              "link": "assets\\H5P\\Grade 7\\Math\\Algebraic Expressions\\geometrical-interpretation-and-use-of-a-b\\geometrical-interpretation-and-use-of-a-b.html"
+            },
+            {
+              "name": "Laws of indices",
+              "link": "assets\\H5P\\Grade 7\\Math\\Algebraic Expressions\\laws-of-indices\\laws-of-indices.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Coordinates",
+          "interactive_items": [
+            {
+              "name": "Coordinate of points I",
+              "link": "assets\\H5P\\Grade 7\\Math\\Coordinates\\coordinate-of-points-I\\coordinate-of-points-I.html"
+            },
+            {
+              "name": "Coordinate of points II",
+              "link": "assets\\H5P\\Grade 7\\Math\\Coordinates\\coordinate-of-points-II\\coordinate-of-points-II.html"
+            },
+            {
+              "name": "Introduction of coordinate geometry",
+              "link": "assets\\H5P\\Grade 7\\Math\\Coordinates\\introduction-of-coordinate-geometry\\introduction-of-coordinate-geometry.html"
+            },
+            {
+              "name": "Revision of coordinate geometry",
+              "link": "assets\\H5P\\Grade 7\\Math\\Coordinates\\revision-of-coordinate-geometry\\revision-of-coordinate-geometry.html"
+            },
+            {
+              "name": "Write the coordinate of points",
+              "link": "assets\\H5P\\Grade 7\\Math\\Coordinates\\write-the-coordinate-of-points\\write-the-coordinate-of-points.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Equation, Inequality and Graph",
+          "interactive_items": [
+            {
+              "name": "Inequalities to be shown on number lines",
+              "link": "assets\\H5P\\Grade 7\\Math\\Equation, Inequality and Graph\\inequalities-to-be-shown-on-number-lines\\inequalities-to-be-shown-on-number-lines.html"
+            },
+            {
+              "name": "Relation of variables by function machine in a linear equation of two variables",
+              "link": "assets\\H5P\\Grade 7\\Math\\Equation, Inequality and Graph\\relation-of-variables-by-function-machine-in-a-linear-equation-of-two-variables\\relation-of-variables-by-function-machine-in-a-linear-equation-of-two-variables.html"
+            },
+            {
+              "name": "Word problems of linear equation in one variable",
+              "link": "assets\\H5P\\Grade 7\\Math\\Equation, Inequality and Graph\\word-problems-of-linear-equation-in-one-variable\\word-problems-of-linear-equation-in-one-variable.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Factorisation, H.C.F. and L.C.M",
+          "interactive_items": [
+            {
+              "name": "Cube and Cube roots of number",
+              "link": "assets\\H5P\\Grade 7\\Math\\Factorisation, H.C.F. and L.C.M\\cube-and-cube-roots-of-number\\cube-and-cube-roots-of-number.html"
+            },
+            {
+              "name": "H.C.F and L.C.M",
+              "link": "assets\\H5P\\Grade 7\\Math\\Factorisation, H.C.F. and L.C.M\\hcf-and-lcm\\hcf-and-lcm.html"
+            },
+            {
+              "name": "Square and square root of numbers",
+              "link": "assets\\H5P\\Grade 7\\Math\\Factorisation, H.C.F. and L.C.M\\square-and-square-root-of-numbers\\square-and-square-root-of-numbers.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Fraction and Decimal",
+          "interactive_items": [
+            {
+              "name": "Revision/Introduction",
+              "link": "assets\\H5P\\Grade 7\\Math\\Fraction and Decimal\\revision-introduction\\revision-introduction.html"
+            },
+            {
+              "name": "Simplification of decimals",
+              "link": "assets\\H5P\\Grade 7\\Math\\Fraction and Decimal\\simplification-of-decimals\\simplification-of-decimals.html"
+            },
+            {
+              "name": "Terminating and non terminating decimals",
+              "link": "assets\\H5P\\Grade 7\\Math\\Fraction and Decimal\\terminating-and-non-terminating-decimals\\terminating-and-non-terminating-decimals.html"
+            },
+            {
+              "name": "Word problems on decimal",
+              "link": "assets\\H5P\\Grade 7\\Math\\Fraction and Decimal\\word-problems-on-decimal\\word-problems-on-decimal.html"
+            },
+            {
+              "name": "Word problems on fractions",
+              "link": "assets\\H5P\\Grade 7\\Math\\Fraction and Decimal\\word-problems-on-fractions\\word-problems-on-fractions.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Operation on Integers",
+          "interactive_items": [
+            {
+              "name": "Four simple rules of integers",
+              "link": "assets\\H5P\\Grade 7\\Math\\Operation on Integers\\four-simple-rules-of-integers\\four-simple-rules-of-integers.html"
+            },
+            {
+              "name": "Revision and absolute value of integers",
+              "link": "assets\\H5P\\Grade 7\\Math\\Operation on Integers\\revision-and-absolute-value-of-integers\\revision-and-absolute-value-of-integers.html"
+            },
+            {
+              "name": "Simplification of integers",
+              "link": "assets\\H5P\\Grade 7\\Math\\Operation on Integers\\simplification-of-integers\\simplification-of-integers.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Geometry Construction",
+          "interactive_items": [
+            {
+              "name": "Introduction of reflection, rotation and translation",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry Construction\\introduction-of-reflection-rotation-and-translation\\introduction-of-reflection-rotation-and-translation.html"
+            },
+            {
+              "name": "Transformation Rotation",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry Construction\\transformation-rotation\\transformation-rotation.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Geometry Triangles, Quadrilaterals and Circles",
+          "interactive_items": [
+            {
+              "name": "Circle",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry Triangles, Quadrilaterals and Circles\\cicle\\cicle.html"
+            },
+            {
+              "name": "Circle and its different parts",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry Triangles, Quadrilaterals and Circles\\circle-and-its-different-parts\\circle-and-its-different-parts.html"
+            },
+            {
+              "name": "Introduction of a circle and its different parts",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry Triangles, Quadrilaterals and Circles\\introduction-of-a-circle-and-its-different-parts\\introduction-of-a-circle-and-its-different-parts.html"
+            },
+            {
+              "name": "Measurement of angles",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry Triangles, Quadrilaterals and Circles\\measurement-of-angles\\measurement-of-angles.html"
+            },
+            {
+              "name": "Quadrilaterals",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry Triangles, Quadrilaterals and Circles\\quadrilaterals\\quadrilaterals.html"
+            },
+            {
+              "name": "Triangles",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry Triangles, Quadrilaterals and Circles\\triangle\\triangle.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Geometry angles",
+          "interactive_items": [
+            {
+              "name": "Construction of angles by using compass",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry angles\\construction-of-angles-by-using-compass\\construction-of-angles-by-using-compass.html"
+            },
+            {
+              "name": "Experimental verification",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry angles\\experimental-verification\\experimental-verification.html"
+            },
+            {
+              "name": "Introduction of some pairs of angles",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry angles\\introduction-of-some-pairs-of-angles\\introduction-of-some-pairs-of-angles.html"
+            },
+            {
+              "name": "Revision of angles",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry angles\\revision-of-angles\\revision-of-angles.html"
+            },
+            {
+              "name": "Types of angle formed by a transversal",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry angles\\types-of-angle-formed-by-a-transversal\\types-of-angle-formed-by-a-transversal.html"
+            },
+            {
+              "name": "Types of line",
+              "link": "assets\\H5P\\Grade 7\\Math\\Geometry angles\\types-of-line\\types-of-line.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Operation on Whole Numbers",
+          "interactive_items": [
+            {
+              "name": "Introduction of binary and quinary system of numbers",
+              "link": "assets\\H5P\\Grade 7\\Math\\Operation on Whole Numbers\\introduction-of-binary-and-quinary-system-of-numbers\\introduction-of-binary-and-quinary-system-of-numbers.html"
+            },
+            {
+              "name": "Properties of rational numbers",
+              "link": "assets\\H5P\\Grade 7\\Math\\Operation on Whole Numbers\\properties-of-rational-numbers\\properties-of-rational-numbers.html"
+            },
+            {
+              "name": "Rational and irrational numbers",
+              "link": "assets\\H5P\\Grade 7\\Math\\Operation on Whole Numbers\\rational-and-irrational-numbers\\rational-and-irrational-numbers.html"
+            },
+            {
+              "name": "Relation between binary, quinary and denary",
+              "link": "assets\\H5P\\Grade 7\\Math\\Operation on Whole Numbers\\relation-between-binary-quinary-and-denary\\relation-between-binary-quinary-and-denary.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Percentage, ratio and proportion",
+          "interactive_items": [
+            {
+              "name": "Percentage",
+              "link": "assets\\H5P\\Grade 7\\Math\\Percentage, ratio and proportion\\percentage\\percentage.html"
+            },
+            {
+              "name": "Proportion",
+              "link": "assets\\H5P\\Grade 7\\Math\\Percentage, ratio and proportion\\proportion\\proportion.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Perimeter, Area and Volume",
+          "interactive_items": [
+            {
+              "name": "Area of plane figures",
+              "link": "assets\\H5P\\Grade 7\\Math\\Perimeter, Area and Volume\\area-of-plane-figures\\area-of-plane-figures.html"
+            },
+            {
+              "name": "Area of solid figures",
+              "link": "assets\\H5P\\Grade 7\\Math\\Perimeter, Area and Volume\\area-of-solid-figures\\area-of-solid-figures.html"
+            },
+            {
+              "name": "Introduction to perimeter, area and volume",
+              "link": "assets\\H5P\\Grade 7\\Math\\Perimeter, Area and Volume\\introduction-to-perimeter-area-and-volume\\introduction-to-perimeter-area-and-volume.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Profit, Loss and Simple Interest",
+          "interactive_items": [
+            {
+              "name": "Profit and loss",
+              "link": "assets\\H5P\\Grade 7\\Math\\Profit, Loss and Simple Interest\\profit-and-loss\\profit-and-loss.html"
+            },
+            {
+              "name": "Simple interest using formulae",
+              "link": "assets\\H5P\\Grade 7\\Math\\Profit, Loss and Simple Interest\\simple-interest-using-formulae\\simple-interest-using-formulae.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Set",
+          "interactive_items": [
+            {
+              "name": "Disjoint and overlapping sets",
+              "link": "assets\\H5P\\Grade 7\\Math\\Set\\disjoint-and-overlapping-sets\\disjoint-and-overlapping-sets.html"
+            },
+            {
+              "name": "Intersection of sets",
+              "link": "assets\\H5P\\Grade 7\\Math\\Set\\intersection-of-sets\\intersection-of-sets.html"
+            },
+            {
+              "name": "Introduction of venn-diagram",
+              "link": "assets\\H5P\\Grade 7\\Math\\Set\\introduction-of-venn-diagram\\introduction-of-venn-diagram.html"
+            },
+            {
+              "name": "Introduction to sets",
+              "link": "assets\\H5P\\Grade 7\\Math\\Set\\introduction-to-sets\\introduction-to-sets.html"
+            },
+            {
+              "name": "Proper and improper subset",
+              "link": "assets\\H5P\\Grade 7\\Math\\Set\\proper-and-improper-subset\\proper-and-improper-subset.html"
+            },
+            {
+              "name": "Union of sets",
+              "link": "assets\\H5P\\Grade 7\\Math\\Set\\union-of-sets\\union-of-sets.html"
+            },
+            {
+              "name": "Universal set",
+              "link": "assets\\H5P\\Grade 7\\Math\\Set\\universal-set\\universal-set.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Similarity and congruence",
+          "interactive_items": [
+            {
+              "name": "Introduction of similar and congruent figures",
+              "link": "assets\\H5P\\Grade 7\\Math\\Similarity and congruence\\introduction-of-similar-and-congruent-figures\\introduction-of-similar-and-congruent-figures.html"
+            },
+            {
+              "name": "Revision of similarity and congruency",
+              "link": "assets\\H5P\\Grade 7\\Math\\Similarity and congruence\\revision-of-similarity-and-congruency\\revision-of-similarity-and-congruency.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Statistics",
+          "interactive_items": [
+            {
+              "name": "Arithmetic mean of the ungrouped data",
+              "link": "assets\\H5P\\Grade 7\\Math\\Statistics\\arithmetic-mean-of-the-ungrouped-data\\arithmetic-mean-of-the-ungrouped-data.html"
+            },
+            {
+              "name": "Commulative frequency table",
+              "link": "assets\\H5P\\Grade 7\\Math\\Statistics\\commulative-frequency-table\\commulative-frequency-table.html"
+            },
+            {
+              "name": "Interpret line plots",
+              "link": "assets\\H5P\\Grade 7\\Math\\Statistics\\interpret-line-plots\\interpret-line-plots.html"
+            },
+            {
+              "name": "Multiple bar diagram",
+              "link": "assets\\H5P\\Grade 7\\Math\\Statistics\\multiple-bar-diagram\\multiple-bar-diagram.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Symmetry, Design and Tesselation",
+          "interactive_items": [
+            {
+              "name": "Extra knowledge on solid shapes",
+              "link": "assets\\H5P\\Grade 7\\Math\\Symmetry, Design and Tesselation\\extra-knowledge-on-solid-shapes\\extra-knowledge-on-solid-shapes.html"
+            },
+            {
+              "name": "Line symmetry",
+              "link": "assets\\H5P\\Grade 7\\Math\\Symmetry, Design and Tesselation\\line-symmetry\\line-symmetry.html"
+            },
+            {
+              "name": "Point symmetry and tessellation",
+              "link": "assets\\H5P\\Grade 7\\Math\\Symmetry, Design and Tesselation\\point-symmetry-and-tessellation\\point-symmetry-and-tessellation.html"
+            },
+            {
+              "name": "Skeleton models of tetra-hedron, octahedron, cone and cylinder",
+              "link": "assets\\H5P\\Grade 7\\Math\\Symmetry, Design and Tesselation\\skeleton-models-of-tetra-hedron-octahedron-cone-and-cylinder\\skeleton-models-of-tetra-hedron-octahedron-cone-and-cylinder.html"
+            },
+            {
+              "name": "Solid shapes",
+              "link": "assets\\H5P\\Grade 7\\Math\\Symmetry, Design and Tesselation\\solid-shapes\\solid-shapes.html"
+            }
+          ]
+        },
+        {
+          "Heading": "Unitary Method",
+          "interactive_items": [
+            {
+              "name": "Unitary method involving direct and indirect variations",
+              "link": "assets\\H5P\\Grade 7\\Math\\Unitary Method\\unitary-method-involving-direct-and-indirect-variations\\unitary-method-involving-direct-and-indirect-variations.html"
+            }
+          ]
+        }
+   ]
+  }
+]

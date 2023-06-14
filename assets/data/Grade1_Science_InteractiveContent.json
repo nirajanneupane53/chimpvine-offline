@@ -8,8 +8,8 @@
           "Heading": "Animals have babies",
           "interactive_items": [
             {
-              "name": "animals-with-their-babies",
-              "link": "assets\\H5P\\Grade 1\\Science\\animals-with-their-babies\\animals-with-their-babies.html"
+              "name": "Animals with their babies",
+              "link": "assets\\H5P\\Grade 1\\Science\\Animals have babies\\animals-with-their-babies\\animals-with-their-babies.html"
             }
           ]
         },
@@ -17,8 +17,8 @@
           "Heading": "Animals having wings",
           "interactive_items": [
             {
-              "name": "Choose two dimensional shapes",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "name": "Animals having wings",
+              "link": "assets\\H5P\\Grade 1\\Science\\Animals having wings\\animals-having-wings\\animals-having-wings.html"
             }
           ]
         },
@@ -27,7 +27,7 @@
           "interactive_items": [
             {
               "name": "Care for animals",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Care for animals\\care-for-animals\\care-for-animals.html"
             }
           ]
         },
@@ -36,7 +36,7 @@
           "interactive_items": [
             {
               "name": "Care for plants",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Care for plants\\care-for-plants\\care-for-plants.html"
             }
 
           ]
@@ -46,7 +46,7 @@
           "interactive_items": [
             {
               "name": "Clean house and school",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Clean house and school\\clean-house-and-school\\clean-house-and-school.html"
             }
 
           ]
@@ -56,7 +56,7 @@
           "interactive_items": [
             {
               "name": "Different body parts of animals",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Different body parts of animals\\different-body-parts-of-animals\\different-body-parts-of-animals.html"
             }
 
         ]
@@ -66,7 +66,7 @@
           "interactive_items": [
             {
               "name": "Different types of animals",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Different types of animals\\different-types-of-animals\\different-types-of-animals.html"
             }
 
         ]
@@ -76,7 +76,7 @@
           "interactive_items": [
             {
               "name": "Fire",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Fire\\fire\\fire.html"
             }
 
         ]
@@ -86,7 +86,7 @@
           "interactive_items": [
             {
               "name": "I am healthy",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\I am healthy\\i-am-healthy\\i-am-healthy.html"
             }
 
         ]
@@ -95,8 +95,16 @@
           "Heading": "Living things",
           "interactive_items": [
             {
-              "name": "Analog clock and time",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "name": "Living things - Interactive book",
+              "link": "assets\\H5P\\Grade 1\\Science\\Living things\\living-things-interactive-book\\living-things-interactive-book.html"
+            },
+            {
+              "name": "Living things - Interactive quiz",
+              "link": "assets\\H5P\\Grade 1\\Science\\Living things\\living-things-interactive-quiz\\living-things-interactive-quiz.html"
+            },
+            {
+              "name": "Living things - Memory game",
+              "link": "assets\\H5P\\Grade 1\\Science\\Living things\\living-things-memory-game\\living-things-memory-game.html"
             }
 
         ]
@@ -106,7 +114,7 @@
           "interactive_items": [
             {
               "name": "Our environment",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Our environment\\our-environment\\our-environment.html"
             }
 
         ]
@@ -116,7 +124,7 @@
           "interactive_items": [
             {
               "name": "Our foods",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Our foods\\our-foods\\our-foods.html"
             }
 
         ]
@@ -126,7 +134,7 @@
           "interactive_items": [
             {
               "name": "Personal hygiene",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Personal hygiene\\personal-hygiene\\personal-hygiene.html"
             }
 
         ]
@@ -135,8 +143,40 @@
           "Heading": "Physical education",
           "interactive_items": [
             {
-              "name": "Physical education",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "name": "Ball games",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\ball-games\\ball-games.html"
+            },
+            {
+              "name": "Basic skills of physical exercise",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\basic-skills-of-physical-exercise\\basic-skills-of-physical-exercise.html"
+            },
+            {
+              "name": "Drill",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\drill\\drill.html"
+            },
+            {
+              "name": "Gymnastics and body balancing",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\gymnastics-and-body-balancing\\gymnastics-and-body-balancing.html"
+            },
+            {
+              "name": "Local games",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\local-games\\local-games.html"
+            },
+            {
+              "name": "Moving skills of physical exercise",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\moving-skills-of-physical-exercise\\moving-skills-of-physical-exercise.html"
+            },
+            {
+              "name": "Physical training",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\physical-training\\physical-training.html"
+            },
+            {
+              "name": "Simple games",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\simple-games\\simple-games.html"
+            },
+            {
+              "name": "Static skills of physical exercise",
+              "link": "assets\\H5P\\Grade 1\\Science\\Physical education\\static-skills-of-physical-exercise\\static-skills-of-physical-exercise.html"
             }
 
         ]
@@ -145,8 +185,20 @@
           "Heading": "Plants",
           "interactive_items": [
             {
-              "name": "Plants",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "name": "Plants - Interactive book",
+              "link": "assets\\H5P\\Grade 1\\Science\\Plants\\plants-interactive-book\\plants-interactive-book.html"
+            },
+            {
+              "name": "Plants around us",
+              "link": "assets\\H5P\\Grade 1\\Science\\Plants\\plants-around-us\\plants-around-us.html"
+            },
+            {
+              "name": "Different parts of plants",
+              "link": "assets\\H5P\\Grade 1\\Science\\Plants\\different-parts-of-plants\\different-parts-of-plants.html"
+            },
+            {
+              "name": "Differences between plants and animals",
+              "link": "assets\\H5P\\Grade 1\\Science\\Plants\\differences-between-plants-and-animals\\differences-between-plants-and-animals.html"
             }
 
         ]
@@ -156,7 +208,7 @@
           "interactive_items": [
             {
               "name": "Rainy day and windy day",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Rainy day and windy day\\rainy-day-and-windy-day\\rainy-day-and-windy-day.html"
             }
 
         ]
@@ -166,7 +218,7 @@
           "interactive_items": [
             {
               "name": "Safety rules",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Safety rules\\safety-rules\\safety-rules.html"
             }
 
         ]
@@ -176,7 +228,7 @@
           "interactive_items": [
             {
               "name": "Sunny day and cloudy day",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Sunny day and cloudy day\\sunny-day-and-cloudy-day\\sunny-day-and-cloudy-day.html"
             }
 
         ]
@@ -186,7 +238,7 @@
           "interactive_items": [
             {
               "name": "Water",
-              "link": "assets\\H5P\\Grade 1\\Science\\.html"
+              "link": "assets\\H5P\\Grade 1\\Science\\Water\\water\\water.html"
             }
 
         ]

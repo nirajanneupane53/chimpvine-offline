@@ -24,8 +24,8 @@
               "link": "assets\\H5P\\Grade 1\\Math\\Addition\\addition-word-problems-up-to-20\\addition-word-problems-up-to-20.html"
             },
             {
-              "name": "Learn addition by counting on interactive video",
-              "link": "assets\\H5P\\Grade 1\\Math\\Addition\\addition-using-number-lines-up-to-20\\addition-using-number-lines-up-to-20.html"
+              "name": "Learn addition by counting on - Interactive video",
+              "link": "assets\\H5P\\Grade 1\\Math\\Addition\\learn-addition-by-counting-on-interactive-video\\learn-addition-by-counting-on-interactive-video.html"
             }
           ]
         },
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "Heading": "Shapee, size, and place",
+          "Heading": "Shape, size, and place",
           "interactive_items": [
             {
               "name": "Above or below",
