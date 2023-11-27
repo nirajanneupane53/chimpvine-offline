@@ -118,3 +118,11 @@ a, a:active, a:focus, a:visited{
 }
 
 
+div#loading-modal .modal-content {
+  background: none;
+  border: none;}
+
+
+  .modal-backdrop.show {
+    opacity: 0.80;
+}

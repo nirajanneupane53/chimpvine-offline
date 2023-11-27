@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from 'renderer/components/Heading';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
+import LoadingModal from 'renderer/components/Loading';
 import { useState, useEffect } from 'react';
 import Footer from 'renderer/components/Footer';
 import { Card } from 'react-bootstrap';
@@ -57,6 +58,7 @@ const Content = () => {
 
   const [screenData, setScreenData] = useState<ScreenData[]>([]);
   const [imagesfile, setImagesfile] = useState<ImageProps>({});
+  const [showModal, setShowModal] = useState<boolean>(false);
 
   useEffect(() => {
     const loadImages = async () => {
@@ -91,9 +93,16 @@ const Content = () => {
   const handleGameClick = (link: any) => {
     const sentData = {
       event: 'GamesOpen',
-      link: link,
+      link,
     };
     window.electron.ipcRenderer.sendMessage('Screen-data', sentData);
+    setShowModal(true);
+
+    window.electron.ipcRenderer.once('Screen-data', async (arg: any) => {
+      // eslint-disable-next-line no-console
+      const data = await arg;
+      setShowModal(data);
+    });
   };
 
   const loadUI = (item: any) => {
@@ -138,6 +147,7 @@ const Content = () => {
 
     if (item.type == 'Games') {
       return (
+        <>
         <div
           key={`${item.grade}-${item.subject}`}
           className="d-flex flex-wrap gap-5"
@@ -168,6 +178,8 @@ const Content = () => {
             </div>
           ))}
         </div>
+          <LoadingModal modal={showModal} />
+          </>
       );
     }
   };

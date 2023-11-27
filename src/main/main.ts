@@ -83,6 +83,12 @@ const createWindow = async () => {
     },
   });
 
+  mainWindow.webContents.on('before-input-event', (event, input) => {
+    if (input.key === 'F11' || input.key === 'Alt') {
+      event.preventDefault(); // Prevent the default behavior (minimizing window)
+    }
+  });
+
   mainWindow.loadURL(resolveHtmlPath('index.html'));
 
   mainWindow.on('ready-to-show', () => {
@@ -90,7 +96,8 @@ const createWindow = async () => {
       throw new Error('"mainWindow" is not defined');
     }
     if (process.env.START_MINIMIZED) {
-      mainWindow.minimize();
+      // mainWindow.minimize();
+      mainWindow.maximize();
     } else {
       mainWindow.show();
     }
@@ -152,9 +159,10 @@ const createWindow = async () => {
         ? path.join(__dirname, '../../../', arg.link)
         : path.join(__dirname, '../../', arg.link);
 
-      console.log(exePath);
-      event.reply('Screen-data', exePath);
+      // console.log(exePath);
+      // event.reply('Screen-data', exePath);
 
+      // eslint-disable-next-line func-names
       const fun = function () {
         const child = spawn(exePath, [
           /* arguments */
@@ -162,11 +170,13 @@ const createWindow = async () => {
 
         child.on('error', (err: any) => {
           console.error('Failed to start child process.', err);
+          event.reply('Screen-data', false);
         });
 
         // Listen for the 'exit' event
         child.on('exit', (code: any) => {
           console.log(`Child process exited with code ${code}`);
+          event.reply('Screen-data', false);
         });
       };
       fun();
@@ -175,6 +185,7 @@ const createWindow = async () => {
     //for loading screendata like games, interactive content, etc.
 
     if (arg.event == 'ReadJson') {
+      console.log(arg.link);
       const dataFilePath = app.isPackaged
         ? path.join(__dirname, '../../../assets/data/', arg.link + '.json')
         : path.join(__dirname, '../../assets/data/', arg.link + '.json');
@@ -217,6 +228,7 @@ const createWindow = async () => {
 
         webPreferences: {
           // fullscreen: true,
+          devTools: false,
           nodeIntegration: true,
           contextIsolation: false,
           frame: false,
@@ -239,6 +251,11 @@ const createWindow = async () => {
           // child.show();
         }
       });
+
+      // Listen for the 'closed' event on the child window
+      child.on('closed', () => {
+        mainWindow.maximize();
+      });
     }
 
     if (arg.event == 'open-link') {
@@ -246,6 +263,7 @@ const createWindow = async () => {
     }
     if (arg.event == 'close') {
       app.quit();
+      mainWindow.focus();
     }
   });
 };
